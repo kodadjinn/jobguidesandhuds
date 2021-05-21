@@ -7661,33 +7661,6 @@
                           <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualCase" />
                         </Condition>
                       </Trigger>
-                      <Trigger Enabled="false" Name="Chaos Refresh" Id="d67a53da-7821-42b5-b6a2-4d4cdcdf9fea" RegularExpression="\[.{14}1(5|6):[A-F0-9]{8}:(?&lt;player&gt;[a-zA-Z' ]{3,21}):58:[a-zA-Z0-9-' ]{3,50}:[A-F0-9]{8}:[a-zA-Z0-9-' ]{3,50}:[A-F0-9]{0,8}:[A-F0-9]{0,8}:[A-F0-9]{0,4}0E:">
-                        <Actions>
-                          <Action OrderNumber="1" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="CancelTrigger" TriggerId="3e9dd1d1-83b8-4cb3-a534-d55410c29655" TriggerForce="regexp" ActionType="Trigger">
-                            <Condition Enabled="false" Grouping="Or" />
-                          </Action>
-                          <Action OrderNumber="2" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="3e9dd1d1-83b8-4cb3-a534-d55410c29655" TriggerForce="regexp" ActionType="Trigger">
-                            <Condition Enabled="false" Grouping="Or" />
-                          </Action>
-                        </Actions>
-                        <Condition Enabled="true" Grouping="And">
-                          <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualCase" />
-                        </Condition>
-                      </Trigger>
-                      <Trigger Enabled="false" Name="Chaos Tracker" Id="3e9dd1d1-83b8-4cb3-a534-d55410c29655" RegularExpression="">
-                        <Actions>
-                          <Action OrderNumber="1" LogLevel="-1" VariableOp="SetNumeric" VariableName="chaos" VariableExpression="24" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
-                            <Condition Enabled="false" Grouping="Or" />
-                          </Action>
-                          <Action OrderNumber="2" LogLevel="-1" VariableOp="SetNumeric" VariableName="chaos" VariableExpression="10" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" ExecutionDelayExpression="13000">
-                            <Condition Enabled="false" Grouping="Or" />
-                          </Action>
-                          <Action OrderNumber="3" LogLevel="-1" VariableName="chaos" VariableExpression="0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" ExecutionDelayExpression="10000">
-                            <Condition Enabled="false" Grouping="Or" />
-                          </Action>
-                        </Actions>
-                        <Condition Enabled="false" Grouping="Or" />
-                      </Trigger>
                     </Triggers>
                   </Folder>
                   <Folder Id="d97047ac-7ff2-4770-896c-e5cc1b19be1b" Name="Other" Enabled="true">
