@@ -1,8 +1,8 @@
 <?xml version="1.0"?>
 <TriggernometryExport Version="1">
-  <ExportedFolder Id="00e27aa4-c92d-4b3d-aa54-dd7685539c84" Name="FFXIV Job Guides and HUDs" Enabled="true">
+  <ExportedFolder Id="00e27aa4-c92d-4b3d-aa54-dd7685539c84" Name="Final Fantasy XIV" Enabled="true">
     <Folders>
-      <Folder FFXIVJobFilterEnabled="True" FFXIVJobFilter="274575654912" Id="a38e3114-222b-4b5d-8e4f-9d0162d80e4d" Name="Alba's Job Guides" Enabled="true">
+      <Folder FFXIVJobFilterEnabled="True" FFXIVJobFilter="274575654912" Id="a38e3114-222b-4b5d-8e4f-9d0162d80e4d" Name="Job Guides" Enabled="true">
         <Folders>
           <Folder FFXIVJobFilterEnabled="True" FFXIVJobFilter="9129426944" Id="fd0ae16b-d996-4f13-9f9b-753bc122c5ef" Name="1 Melee DPS" Enabled="true">
             <Folders>
@@ -6789,7 +6789,7 @@
         </Folders>
         <Triggers />
       </Folder>
-      <Folder FFXIVJobFilterEnabled="True" FFXIVJobFilter="274877906943" Id="f8dd670a-1dfc-4507-89db-df890703dc22" Name="Alba's Job HUDs" Enabled="true">
+      <Folder FFXIVJobFilterEnabled="True" FFXIVJobFilter="274877906943" Id="f8dd670a-1dfc-4507-89db-df890703dc22" Name="Job HUDs" Enabled="true">
         <Folders>
           <Folder FFXIVJobFilterEnabled="True" FFXIVJobFilter="9129426944" Id="ec38f79a-afec-406e-8e4e-9b501c632409" Name="1 Melee DPS" Enabled="true">
             <Folders>
