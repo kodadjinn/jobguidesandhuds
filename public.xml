@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <TriggernometryExport Version="1">
-  <ExportedFolder Id="00e27aa4-c92d-4b3d-aa54-dd7685539c84" Name="Interactive Job Guides and Cobat HUDs" Enabled="true">
+  <ExportedFolder Id="00e27aa4-c92d-4b3d-aa54-dd7685539c84" Name="Job Guides and Combat HUDs" Enabled="true">
     <Folders>
       <Folder FFXIVJobFilterEnabled="True" FFXIVJobFilter="274575654912" Id="a38e3114-222b-4b5d-8e4f-9d0162d80e4d" Name="Job Guides" Enabled="true">
         <Folders>
