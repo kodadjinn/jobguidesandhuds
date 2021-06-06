@@ -5467,7 +5467,7 @@
         <Folders>
           <Folder FFXIVJobFilterEnabled="True" FFXIVJobFilter="9129426944" Id="ec38f79a-afec-406e-8e4e-9b501c632409" Name="1 Melee DPS" Enabled="true">
             <Folders>
-              <Folder FFXIVJobFilterEnabled="True" FFXIVJobFilter="2097152" Id="d9848aaa-0fb6-4d96-a8f6-4ce2edb5404e" Name="DRG" Enabled="false">
+              <Folder FFXIVJobFilterEnabled="True" FFXIVJobFilter="2097152" Id="d9848aaa-0fb6-4d96-a8f6-4ce2edb5404e" Name="DRG" Enabled="true">
                 <Folders>
                   <Folder Id="9a5b41fa-91c4-47ab-92bf-c9007f6a9964" Name="+ Update" Enabled="true">
                     <Folders />
@@ -7608,7 +7608,7 @@
                 </Folders>
                 <Triggers />
               </Folder>
-              <Folder FFXIVJobFilterEnabled="True" FFXIVJobFilter="536870912" Id="01f932ad-83e2-416f-a17c-72d1349785bf" Name="NIN" Enabled="false">
+              <Folder FFXIVJobFilterEnabled="True" FFXIVJobFilter="536870912" Id="01f932ad-83e2-416f-a17c-72d1349785bf" Name="NIN" Enabled="true">
                 <Folders>
                   <Folder Id="d13a667b-0db8-40a1-8d49-5285c5cbaada" Name="Core" Enabled="true">
                     <Folders>
@@ -8125,6 +8125,16 @@
                             <Condition Enabled="true" Grouping="And">
                               <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualCase" />
                             </Condition>
+                          </Trigger>
+                          <Trigger Enabled="true" Name="Non-combat Non-Combo Update" Id="ca51e53f-510c-4a5a-839c-1855d4812606" RegularExpression="\[.{14}1(5|6):[A-F0-9]{8}:(?&lt;player&gt;[a-zA-Z-' ]{3,21}):(8CE|4068):">
+                            <Actions>
+                              <Action OrderNumber="1" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="ca71b040-3613-4bb2-a56a-4f0cf22b1069" TriggerForce="regexp" ActionType="Trigger">
+                                <Condition Enabled="false" Grouping="Or" />
+                                <Conditions />
+                              </Action>
+                            </Actions>
+                            <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Trigger>
                         </Triggers>
                       </Folder>
@@ -9093,76 +9103,60 @@
                             <Actions>
                               <Action OrderNumber="1" LogLevel="-1" VariableOp="SetNumeric" VariableName="meikyodupe" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                                 <Condition Enabled="false" Grouping="Or" />
-                                <Conditions />
                               </Action>
                               <Action OrderNumber="2" LogLevel="-1" TextAuraOp="DeactivateAura" TextAuraEffect="Bold" TextAuraFontSize="9.75" TextAuraForeground="Lime" TextAuraOutline="Green" TextAuraName="meikyodupe" TextAuraExpression="Meikyo Shisui" TextAuraXIniExpression="0" TextAuraYIniExpression="645" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraYTickExpression="645+${var:hudYoffset}" TextAuraWTickExpression="${var:width}" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                                 <Condition Enabled="false" Grouping="And" />
-                                <Conditions />
                               </Action>
                               <Action OrderNumber="3" LogLevel="-1" VariableName="combo" VariableExpression="3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                                 <Condition Enabled="false" Grouping="Or" />
-                                <Conditions />
                               </Action>
                               <Action OrderNumber="4" LogLevel="-1" VariableName="meikyo3" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                                 <Condition Enabled="false" Grouping="Or" />
-                                <Conditions />
                               </Action>
                               <Action OrderNumber="5" LogLevel="-1" TextAuraOp="DeactivateAura" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Fuchsia" TextAuraOutline="Black" TextAuraName="combo" TextAuraExpression="__" TextAuraXIniExpression="-30" TextAuraYIniExpression="605" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                                 <Condition Enabled="true" Grouping="And">
                                   <ConditionSingle Enabled="true" ExpressionL="${var:combo}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                                 </Condition>
-                                <Conditions />
                               </Action>
                               <Action OrderNumber="6" LogLevel="-1" TextAuraOp="DeactivateAura" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Red" TextAuraOutline="Green" TextAuraName="meikyo" TextAuraExpression="MK" TextAuraXIniExpression="0" TextAuraYIniExpression="630" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                                 <Condition Enabled="true" Grouping="And">
                                   <ConditionSingle Enabled="true" ExpressionL="${var:meikyo}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                                 </Condition>
-                                <Conditions />
                               </Action>
                               <Action OrderNumber="7" LogLevel="-1" VariableOp="SetString" VariableName="meikyo" VariableExpression="55" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                                 <Condition Enabled="false" Grouping="Or" />
-                                <Conditions />
                               </Action>
                               <Action OrderNumber="8" LogLevel="-1" VariableOp="SetNumeric" VariableName="meikyocount" VariableExpression="3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                                 <Condition Enabled="false" Grouping="Or" />
-                                <Conditions />
                               </Action>
                               <Action OrderNumber="9" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="a3366aab-3a78-4f96-9486-5fd81cbe1699" TriggerForce="regexp" ActionType="Trigger">
                                 <Condition Enabled="false" Grouping="Or" />
-                                <Conditions />
                               </Action>
                               <Action OrderNumber="10" LogLevel="-1" VariableOp="SetString" VariableName="meikyo" VariableExpression="40" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" ExecutionDelayExpression="14750">
                                 <Condition Enabled="false" Grouping="Or" />
-                                <Conditions />
                               </Action>
                               <Action OrderNumber="11" LogLevel="-1" VariableName="meikyocount" VariableExpression="3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                                 <Condition Enabled="false" Grouping="Or" />
-                                <Conditions />
                               </Action>
                               <Action OrderNumber="12" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="a3366aab-3a78-4f96-9486-5fd81cbe1699" TriggerForce="regexp" ActionType="Trigger">
                                 <Condition Enabled="false" Grouping="Or" />
-                                <Conditions />
                               </Action>
                               <Action OrderNumber="13" LogLevel="-1" VariableName="meikyo" VariableExpression="55" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" ExecutionDelayExpression="40000">
                                 <Condition Enabled="false" Grouping="Or" />
-                                <Conditions />
                               </Action>
                               <Action OrderNumber="14" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="a3366aab-3a78-4f96-9486-5fd81cbe1699" TriggerForce="regexp" ActionType="Trigger">
                                 <Condition Enabled="false" Grouping="Or" />
-                                <Conditions />
                               </Action>
                               <Action OrderNumber="15" LogLevel="-1" TextAuraEffect="Bold" TextAuraFontSize="9.75" TextAuraForeground="Yellow" TextAuraOutline="Black" TextAuraName="meikyo" TextAuraExpression="Meikyo Shisui" TextAuraXIniExpression="0" TextAuraYIniExpression="645" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraYTickExpression="645+${var:hudYoffset}" TextAuraWTickExpression="${var:width}" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                                 <Condition Enabled="false" Grouping="And">
                                   <ConditionSingle Enabled="true" ExpressionL="${var:meikyo}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                                   <ConditionSingle Enabled="true" ExpressionL="${var:meikyocount}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericLessEqual" />
                                 </Condition>
-                                <Conditions />
                               </Action>
                               <Action OrderNumber="16" LogLevel="-1" TextAuraEffect="Bold" TextAuraFontSize="9.75" TextAuraForeground="Lime" TextAuraOutline="Green" TextAuraName="meikyo" TextAuraExpression="Meikyo Shisui" TextAuraXIniExpression="0" TextAuraYIniExpression="645" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraYTickExpression="645+${var:hudYoffset}" TextAuraWTickExpression="${var:width}" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura" ExecutionDelayExpression="4000">
                                 <Condition Enabled="true" Grouping="And">
                                   <ConditionSingle Enabled="true" ExpressionL="${var:meikyo}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                                 </Condition>
-                                <Conditions />
                               </Action>
                             </Actions>
                             <Condition Enabled="true" Grouping="And">
@@ -9223,148 +9217,124 @@
                               <ConditionSingle Enabled="true" ExpressionL="${var:jinpu}" ExpressionTypeL="Numeric" ExpressionR="10" ExpressionTypeR="Numeric" ConditionType="NumericLessEqual" />
                               <ConditionSingle Enabled="true" ExpressionL="${var:jinpu}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
                             </Condition>
-                            <Conditions />
                           </Action>
                           <Action OrderNumber="1" LogLevel="-1" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Aqua" TextAuraOutline="#004080" TextAuraName="jinpu" TextAuraExpression="__" TextAuraXIniExpression="-30" TextAuraYIniExpression="580" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraYTickExpression="580+${var:hudYoffset}" TextAuraWTickExpression="${var:width}" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                             <Condition Enabled="true" Grouping="And">
                               <ConditionSingle Enabled="true" ExpressionL="${var:jinpu}" ExpressionTypeL="Numeric" ExpressionR="10" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                             </Condition>
-                            <Conditions />
                           </Action>
                           <Action OrderNumber="2" LogLevel="-1" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Silver" TextAuraOutline="Black" TextAuraName="jinpu" TextAuraExpression="__" TextAuraXIniExpression="-30" TextAuraYIniExpression="580" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraYTickExpression="580+${var:hudYoffset}" TextAuraWTickExpression="${var:width}" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                             <Condition Enabled="true" Grouping="And">
                               <ConditionSingle Enabled="true" ExpressionL="${var:jinpu}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                             </Condition>
-                            <Conditions />
                           </Action>
                           <Action OrderNumber="3" LogLevel="-1" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Red" TextAuraOutline="Black" TextAuraName="higanbana" TextAuraExpression="__" TextAuraXIniExpression="0" TextAuraYIniExpression="580" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraYTickExpression="580+${var:hudYoffset}" TextAuraWTickExpression="${var:width}" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                             <Condition Enabled="true" Grouping="And">
                               <ConditionSingle Enabled="true" ExpressionL="${var:higanbana}" ExpressionTypeL="Numeric" ExpressionR="15" ExpressionTypeR="Numeric" ConditionType="NumericLessEqual" />
                               <ConditionSingle Enabled="true" ExpressionL="${var:higanbana}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
                             </Condition>
-                            <Conditions />
                           </Action>
                           <Action OrderNumber="4" LogLevel="-1" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="#FF8080" TextAuraOutline="Red" TextAuraName="higanbana" TextAuraExpression="__" TextAuraXIniExpression="0" TextAuraYIniExpression="580" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraYTickExpression="580+${var:hudYoffset}" TextAuraWTickExpression="${var:width}" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                             <Condition Enabled="true" Grouping="And">
                               <ConditionSingle Enabled="true" ExpressionL="${var:higanbana}" ExpressionTypeL="Numeric" ExpressionR="15" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                             </Condition>
-                            <Conditions />
                           </Action>
                           <Action OrderNumber="5" LogLevel="-1" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Silver" TextAuraOutline="Black" TextAuraName="higanbana" TextAuraExpression="__" TextAuraXIniExpression="0" TextAuraYIniExpression="580" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraYTickExpression="580+${var:hudYoffset}" TextAuraWTickExpression="${var:width}" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                             <Condition Enabled="true" Grouping="And">
                               <ConditionSingle Enabled="true" ExpressionL="${var:higanbana}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                             </Condition>
-                            <Conditions />
                           </Action>
                           <Action OrderNumber="7" LogLevel="-1" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Red" TextAuraOutline="Black" TextAuraName="shifu" TextAuraExpression="__" TextAuraXIniExpression="30" TextAuraYIniExpression="580" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraYTickExpression="580+${var:hudYoffset}" TextAuraWTickExpression="${var:width}" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                             <Condition Enabled="true" Grouping="And">
                               <ConditionSingle Enabled="true" ExpressionL="${var:shifu}" ExpressionTypeL="Numeric" ExpressionR="10" ExpressionTypeR="Numeric" ConditionType="NumericLessEqual" />
                               <ConditionSingle Enabled="true" ExpressionL="${var:shifu}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
                             </Condition>
-                            <Conditions />
                           </Action>
                           <Action OrderNumber="8" LogLevel="-1" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="#FFFF80" TextAuraOutline="#FF8040" TextAuraName="shifu" TextAuraExpression="__" TextAuraXIniExpression="30" TextAuraYIniExpression="580" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraYTickExpression="580+${var:hudYoffset}" TextAuraWTickExpression="${var:width}" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                             <Condition Enabled="true" Grouping="And">
                               <ConditionSingle Enabled="true" ExpressionL="${var:shifu}" ExpressionTypeL="Numeric" ExpressionR="10" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                             </Condition>
-                            <Conditions />
                           </Action>
                           <Action OrderNumber="9" LogLevel="-1" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Silver" TextAuraOutline="Black" TextAuraName="shifu" TextAuraExpression="__" TextAuraXIniExpression="30" TextAuraYIniExpression="580" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraYTickExpression="580+${var:hudYoffset}" TextAuraWTickExpression="${var:width}" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                             <Condition Enabled="true" Grouping="And">
                               <ConditionSingle Enabled="true" ExpressionL="${var:shifu}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                             </Condition>
-                            <Conditions />
                           </Action>
                           <Action OrderNumber="10" LogLevel="-1" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Silver" TextAuraOutline="Black" TextAuraName="getsu" TextAuraExpression="G" TextAuraXIniExpression="-30" TextAuraYIniExpression="600" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraYTickExpression="600+${var:hudYoffset}" TextAuraWTickExpression="${var:width}" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                             <Condition Enabled="true" Grouping="And">
                               <ConditionSingle Enabled="true" ExpressionL="${var:getsu}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                             </Condition>
-                            <Conditions />
                           </Action>
                           <Action OrderNumber="11" LogLevel="-1" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="#80FFFF" TextAuraOutline="#0080FF" TextAuraName="getsu" TextAuraExpression="G" TextAuraXIniExpression="-30" TextAuraYIniExpression="600" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraYTickExpression="600+${var:hudYoffset}" TextAuraWTickExpression="${var:width}" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                             <Condition Enabled="true" Grouping="And">
                               <ConditionSingle Enabled="true" ExpressionL="${var:getsu}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                             </Condition>
-                            <Conditions />
                           </Action>
                           <Action OrderNumber="12" LogLevel="-1" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Silver" TextAuraOutline="Black" TextAuraName="setsu" TextAuraExpression="S" TextAuraXIniExpression="0" TextAuraYIniExpression="600" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraYTickExpression="600+${var:hudYoffset}" TextAuraWTickExpression="${var:width}" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                             <Condition Enabled="true" Grouping="And">
                               <ConditionSingle Enabled="true" ExpressionL="${var:setsu}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                             </Condition>
-                            <Conditions />
                           </Action>
                           <Action OrderNumber="13" LogLevel="-1" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="#80FFFF" TextAuraOutline="#004080" TextAuraName="setsu" TextAuraExpression="S" TextAuraXIniExpression="0" TextAuraYIniExpression="600" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraYTickExpression="600+${var:hudYoffset}" TextAuraWTickExpression="${var:width}" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                             <Condition Enabled="true" Grouping="And">
                               <ConditionSingle Enabled="true" ExpressionL="${var:setsu}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                             </Condition>
-                            <Conditions />
                           </Action>
                           <Action OrderNumber="14" LogLevel="-1" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Silver" TextAuraOutline="Black" TextAuraName="ka" TextAuraExpression="K" TextAuraXIniExpression="30" TextAuraYIniExpression="600" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraYTickExpression="600+${var:hudYoffset}" TextAuraWTickExpression="${var:width}" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                             <Condition Enabled="true" Grouping="And">
                               <ConditionSingle Enabled="true" ExpressionL="${var:ka}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                             </Condition>
-                            <Conditions />
                           </Action>
                           <Action OrderNumber="15" LogLevel="-1" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="#FF8080" TextAuraOutline="Red" TextAuraName="ka" TextAuraExpression="K" TextAuraXIniExpression="30" TextAuraYIniExpression="600" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraYTickExpression="600+${var:hudYoffset}" TextAuraWTickExpression="${var:width}" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                             <Condition Enabled="true" Grouping="And">
                               <ConditionSingle Enabled="true" ExpressionL="${var:ka}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                             </Condition>
-                            <Conditions />
                           </Action>
                           <Action OrderNumber="16" LogLevel="-1" TextAuraEffect="Bold" TextAuraFontSize="14.25" TextAuraForeground="Red" TextAuraOutline="Purple" TextAuraName="iki" TextAuraExpression="~" TextAuraXIniExpression="55" TextAuraYIniExpression="603" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraYTickExpression="603+${var:hudYoffset}" TextAuraWTickExpression="${var:width}" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                             <Condition Enabled="true" Grouping="Or">
                               <ConditionSingle Enabled="true" ExpressionL="${var:iki}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                             </Condition>
-                            <Conditions />
                           </Action>
                           <Action OrderNumber="17" LogLevel="-1" TextAuraOp="DeactivateAura" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Red" TextAuraOutline="#8080C0" TextAuraName="iki" TextAuraExpression="__" TextAuraXIniExpression="30" TextAuraYIniExpression="605" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                             <Condition Enabled="true" Grouping="Or">
                               <ConditionSingle Enabled="true" ExpressionL="${var:iki}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                             </Condition>
-                            <Conditions />
                           </Action>
                           <Action OrderNumber="18" LogLevel="-1" TextAuraEffect="Bold" TextAuraFontSize="14.25" TextAuraForeground="#FF8000" TextAuraOutline="#804000" TextAuraName="hissatsu" TextAuraExpression="~" TextAuraXIniExpression="55" TextAuraYIniExpression="609" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraYTickExpression="609+${var:hudYoffset}" TextAuraWTickExpression="${var:width}" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                             <Condition Enabled="true" Grouping="Or">
                               <ConditionSingle Enabled="true" ExpressionL="${var:hissatsu}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                             </Condition>
-                            <Conditions />
                           </Action>
                           <Action OrderNumber="19" LogLevel="-1" TextAuraOp="DeactivateAura" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Red" TextAuraOutline="Maroon" TextAuraName="hissatsu" TextAuraExpression="__" TextAuraXIniExpression="0" TextAuraYIniExpression="605" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                             <Condition Enabled="true" Grouping="Or">
                               <ConditionSingle Enabled="true" ExpressionL="${var:hissatsu}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                             </Condition>
-                            <Conditions />
                           </Action>
                           <Action OrderNumber="20" LogLevel="-1" TextAuraOp="DeactivateAura" TextAuraEffect="Bold" TextAuraFontSize="9.75" TextAuraForeground="Red" TextAuraName="tsubame" TextAuraExpression="X2" TextAuraXIniExpression="-80" TextAuraYIniExpression="601" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                             <Condition Enabled="true" Grouping="And">
                               <ConditionSingle Enabled="true" ExpressionL="${var:tsubame}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                             </Condition>
-                            <Conditions />
                           </Action>
                           <Action OrderNumber="21" LogLevel="-1" TextAuraEffect="Bold" TextAuraFontSize="9.75" TextAuraForeground="Red" TextAuraName="tsubame" TextAuraExpression="X2" TextAuraXIniExpression="-55" TextAuraYIniExpression="601" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraYTickExpression="601+${var:hudYoffset}" TextAuraWTickExpression="${var:width}" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                             <Condition Enabled="true" Grouping="Or">
                               <ConditionSingle Enabled="true" ExpressionL="${var:tsubame}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericLessEqual" />
                             </Condition>
-                            <Conditions />
                           </Action>
                           <Action OrderNumber="22" LogLevel="-1" TextAuraEffect="Bold" TextAuraFontSize="9.75" TextAuraForeground="Red" TextAuraName="tsubame" TextAuraExpression="X2" TextAuraXIniExpression="-80" TextAuraYIniExpression="601" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraYTickExpression="601+${var:hudYoffset}" TextAuraWTickExpression="${var:width}" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                             <Condition Enabled="true" Grouping="And">
                               <ConditionSingle Enabled="true" ExpressionL="${var:tsubame}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericLessEqual" />
                               <ConditionSingle Enabled="true" ExpressionL="${var:meikyocount}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                             </Condition>
-                            <Conditions />
                           </Action>
                           <Action OrderNumber="23" LogLevel="-1" TextAuraOp="DeactivateAura" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Aqua" TextAuraOutline="#004080" TextAuraName="meikyocount" TextAuraExpression="${var:meikyocount}" TextAuraXIniExpression="0" TextAuraYIniExpression="600" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                             <Condition Enabled="true" Grouping="And">
                               <ConditionSingle Enabled="true" ExpressionL="${var:meikyocount}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericLessEqual" />
                             </Condition>
-                            <Conditions />
                           </Action>
                           <Action OrderNumber="24" LogLevel="-1" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Aqua" TextAuraOutline="#004080" TextAuraName="meikyo" TextAuraExpression="${var:meikyocount}" TextAuraXIniExpression="-55" TextAuraYIniExpression="600" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraYTickExpression="600+${var:hudYoffset}" TextAuraWTickExpression="${var:width}" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                             <Condition Enabled="true" Grouping="And">
                               <ConditionSingle Enabled="true" ExpressionL="${var:meikyocount}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                             </Condition>
-                            <Conditions />
                           </Action>
                           <Action OrderNumber="25" LogLevel="-1" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="White" TextAuraOutline="Black" TextAuraName="meikyo" TextAuraExpression="${var:meikyotimer}" TextAuraXIniExpression="0" TextAuraYIniExpression="645" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraYTickExpression="645+${var:hudYoffset}" TextAuraWTickExpression="${var:width}" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                             <Condition Enabled="true" Grouping="And">
@@ -9372,29 +9342,24 @@
                               <ConditionSingle Enabled="true" ExpressionL="${var:meikyocount}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericLessEqual" />
                               <ConditionSingle Enabled="false" ExpressionL="${var:meikyotimer}" ExpressionTypeL="Numeric" ExpressionR="7" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                             </Condition>
-                            <Conditions />
                           </Action>
                           <Action OrderNumber="26" LogLevel="-1" TextAuraEffect="Bold" TextAuraFontSize="9.75" TextAuraForeground="White" TextAuraOutline="Black" TextAuraName="kenkicount" TextAuraExpression="${var:kenki}" TextAuraXIniExpression="28" TextAuraYIniExpression="631" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraYTickExpression="631+${var:hudYoffset}" TextAuraWTickExpression="${var:width}" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                             <Condition Enabled="false" Grouping="And" />
-                            <Conditions />
                           </Action>
                           <Action OrderNumber="27" LogLevel="-1" TextAuraEffect="Bold" TextAuraFontSize="9.75" TextAuraForeground="White" TextAuraOutline="Black" TextAuraName="kenkicount" TextAuraExpression="0" TextAuraXIniExpression="28" TextAuraYIniExpression="631" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraYTickExpression="631+${var:hudYoffset}" TextAuraWTickExpression="${var:width}" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                             <Condition Enabled="true" Grouping="And">
                               <ConditionSingle Enabled="true" ExpressionL="${var:kenki}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                             </Condition>
-                            <Conditions />
                           </Action>
                           <Action OrderNumber="28" LogLevel="-1" TextAuraEffect="Bold" TextAuraFontSize="8.25" TextAuraOutline="#FF8040" TextAuraName="kenkibarbackground" TextAuraExpression="--------------------" TextAuraXIniExpression="1" TextAuraYIniExpression="620" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraYTickExpression="620+${var:hudYoffset}" TextAuraWTickExpression="${var:width}" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                             <Condition Enabled="true" Grouping="And">
                               <ConditionSingle Enabled="true" ExpressionL="${var:kenki}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                             </Condition>
-                            <Conditions />
                           </Action>
                           <Action OrderNumber="29" LogLevel="-1" TextAuraEffect="Bold" TextAuraFontSize="9.75" TextAuraForeground="Lime" TextAuraOutline="Green" TextAuraName="meikyodupe" TextAuraExpression="Meikyo Shisui" TextAuraXIniExpression="0" TextAuraYIniExpression="645" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraYTickExpression="645+${var:hudYoffset}" TextAuraWTickExpression="${var:width}" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                             <Condition Enabled="true" Grouping="And">
                               <ConditionSingle Enabled="true" ExpressionL="${var:meikyodupe}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                             </Condition>
-                            <Conditions />
                           </Action>
                         </Actions>
                         <Condition Enabled="false" Grouping="Or" />
@@ -9489,6 +9454,16 @@
                             <Condition Enabled="true" Grouping="And">
                               <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualCase" />
                             </Condition>
+                          </Trigger>
+                          <Trigger Enabled="true" Name="Non-combat Non-Combo Update" Id="b1bbce63-42bb-4660-8d67-1ebaa1cf1630" RegularExpression="\[.{14}1(5|6):[A-F0-9]{8}:(?&lt;player&gt;[a-zA-Z-' ]{3,21}):(1D3C|1D3D):">
+                            <Actions>
+                              <Action OrderNumber="1" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="a3366aab-3a78-4f96-9486-5fd81cbe1699" TriggerForce="regexp" ActionType="Trigger">
+                                <Condition Enabled="false" Grouping="Or" />
+                                <Conditions />
+                              </Action>
+                            </Actions>
+                            <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Trigger>
                         </Triggers>
                       </Folder>
