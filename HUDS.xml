@@ -2566,11 +2566,21 @@
                     <Triggers>
                       <Trigger Enabled="true" Sequential="True" Name="Combo 1-&gt;2 Spinning" Id="b558cf66-6a52-44b9-bfd8-f46e50cc4a52" RegularExpression="\[.{14}1(5|6):[A-F0-9]{8}:(?&lt;player&gt;[a-zA-Z-' ]{3,21}):8C0:[a-zA-Z0-9-' ]{3,50}:[A-F0-9]{8}:[a-zA-Z0-9-' ]{3,50}:[A-F0-9]{0,8}:[A-F0-9]{0,8}:(2C|5)3D:">
                         <Actions>
-                          <Action OrderNumber="1" LogLevel="-1" VariableOp="SetNumeric" VariableName="combo" VariableExpression="2" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                          <Action OrderNumber="1" LogLevel="-1" VariableName="combo" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
-                          <Action OrderNumber="2" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="ca71b040-3613-4bb2-a56a-4f0cf22b1069" TriggerForce="regexp" ActionType="Trigger">
+                          <Action OrderNumber="2" LogLevel="-1" TextAuraOp="DeactivateAura" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Fuchsia" TextAuraOutline="Black" TextAuraName="combo" TextAuraExpression="__" TextAuraXIniExpression="-30" TextAuraYIniExpression="605" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
+                            <Condition Enabled="false" Grouping="And" />
+                            <Conditions />
+                          </Action>
+                          <Action OrderNumber="3" LogLevel="-1" VariableOp="SetNumeric" VariableName="combo" VariableExpression="2" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
+                          </Action>
+                          <Action OrderNumber="4" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="ca71b040-3613-4bb2-a56a-4f0cf22b1069" TriggerForce="regexp" ActionType="Trigger">
+                            <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
                         </Actions>
                         <Condition Enabled="true" Grouping="And">
@@ -2579,11 +2589,21 @@
                       </Trigger>
                       <Trigger Enabled="true" Sequential="True" Name="Combo 3-&gt;1 Aeolian" Id="1ba0fbf5-4a1d-43ae-bd7b-f9c59b0914fe" RegularExpression="\[.{14}1(5|6):[A-F0-9]{8}:(?&lt;player&gt;[a-zA-Z-' ]{3,21}):8CF:[a-zA-Z0-9-' ]{3,50}:[A-F0-9]{8}:[a-zA-Z0-9-' ]{3,50}:[A-F0-9]{0,8}:[A-F0-9]{0,8}:(2C|5)3D:">
                         <Actions>
-                          <Action OrderNumber="1" LogLevel="-1" VariableOp="SetNumeric" VariableName="combo" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                          <Action OrderNumber="1" LogLevel="-1" VariableName="combo" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
-                          <Action OrderNumber="2" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="ca71b040-3613-4bb2-a56a-4f0cf22b1069" TriggerForce="regexp" ActionType="Trigger">
+                          <Action OrderNumber="2" LogLevel="-1" TextAuraOp="DeactivateAura" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Fuchsia" TextAuraOutline="Black" TextAuraName="combo" TextAuraExpression="__" TextAuraXIniExpression="-30" TextAuraYIniExpression="605" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
+                            <Condition Enabled="false" Grouping="And" />
+                            <Conditions />
+                          </Action>
+                          <Action OrderNumber="3" LogLevel="-1" VariableOp="SetNumeric" VariableName="combo" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
+                          </Action>
+                          <Action OrderNumber="4" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="ca71b040-3613-4bb2-a56a-4f0cf22b1069" TriggerForce="regexp" ActionType="Trigger">
+                            <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
                         </Actions>
                         <Condition Enabled="true" Grouping="And">
@@ -2592,11 +2612,21 @@
                       </Trigger>
                       <Trigger Enabled="true" Sequential="True" Name="Combo 2-&gt;3 Gust" Id="72b649cd-f798-49eb-9c25-59098b43f6d1" RegularExpression="\[.{14}1(5|6):[A-F0-9]{8}:(?&lt;player&gt;[a-zA-Z-' ]{3,21}):8C2:[a-zA-Z0-9-' ]{3,50}:[A-F0-9]{8}:[a-zA-Z0-9-' ]{3,50}:[A-F0-9]{0,8}:[A-F0-9]{0,8}:(2C|5)3D:">
                         <Actions>
-                          <Action OrderNumber="1" LogLevel="-1" VariableOp="SetNumeric" VariableName="combo" VariableExpression="3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                          <Action OrderNumber="1" LogLevel="-1" VariableName="combo" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
-                          <Action OrderNumber="2" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="ca71b040-3613-4bb2-a56a-4f0cf22b1069" TriggerForce="regexp" ActionType="Trigger">
+                          <Action OrderNumber="2" LogLevel="-1" TextAuraOp="DeactivateAura" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Fuchsia" TextAuraOutline="Black" TextAuraName="combo" TextAuraExpression="__" TextAuraXIniExpression="-30" TextAuraYIniExpression="605" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
+                            <Condition Enabled="false" Grouping="And" />
+                            <Conditions />
+                          </Action>
+                          <Action OrderNumber="3" LogLevel="-1" VariableOp="SetNumeric" VariableName="combo" VariableExpression="3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
+                          </Action>
+                          <Action OrderNumber="4" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="ca71b040-3613-4bb2-a56a-4f0cf22b1069" TriggerForce="regexp" ActionType="Trigger">
+                            <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
                         </Actions>
                         <Condition Enabled="true" Grouping="And">
@@ -2605,11 +2635,21 @@
                       </Trigger>
                       <Trigger Enabled="true" Sequential="True" Name="Combo 3-&gt;1 Armor" Id="4e6966f7-1e01-409c-b22c-7ca4abf27d2f" RegularExpression="\[.{14}1(5|6):[A-F0-9]{8}:(?&lt;player&gt;[a-zA-Z-' ]{3,21}):DEB:[a-zA-Z0-9-' ]{3,50}:[A-F0-9]{8}:[a-zA-Z0-9-' ]{3,50}:[A-F0-9]{0,8}:[A-F0-9]{0,8}:[A-F0-9]{0,2}3D:">
                         <Actions>
-                          <Action OrderNumber="1" LogLevel="-1" VariableOp="SetNumeric" VariableName="combo" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                          <Action OrderNumber="1" LogLevel="-1" VariableName="combo" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
-                          <Action OrderNumber="2" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="ca71b040-3613-4bb2-a56a-4f0cf22b1069" TriggerForce="regexp" ActionType="Trigger">
+                          <Action OrderNumber="2" LogLevel="-1" TextAuraOp="DeactivateAura" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Fuchsia" TextAuraOutline="Black" TextAuraName="combo" TextAuraExpression="__" TextAuraXIniExpression="-30" TextAuraYIniExpression="605" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
+                            <Condition Enabled="false" Grouping="And" />
+                            <Conditions />
+                          </Action>
+                          <Action OrderNumber="3" LogLevel="-1" VariableOp="SetNumeric" VariableName="combo" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
+                          </Action>
+                          <Action OrderNumber="4" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="ca71b040-3613-4bb2-a56a-4f0cf22b1069" TriggerForce="regexp" ActionType="Trigger">
+                            <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
                         </Actions>
                         <Condition Enabled="true" Grouping="And">
@@ -2618,14 +2658,17 @@
                       </Trigger>
                       <Trigger Enabled="true" Sequential="True" Name="0 Combo 3-&gt;0 Throwing" Id="abd9eb76-9ac4-4fbc-b575-b9efecd92667" RegularExpression="\[.{14}1(5|6):[A-F0-9]{8}:(?&lt;player&gt;[a-zA-Z-' ]{3,21}):8C7:">
                         <Actions>
-                          <Action OrderNumber="1" LogLevel="-1" TextAuraOp="DeactivateAura" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Fuchsia" TextAuraOutline="Black" TextAuraName="combo" TextAuraExpression="__" TextAuraXIniExpression="-30" TextAuraYIniExpression="605" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
-                            <Condition Enabled="false" Grouping="And" />
-                          </Action>
-                          <Action OrderNumber="2" LogLevel="-1" VariableName="combo" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                          <Action OrderNumber="1" LogLevel="-1" VariableName="combo" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
+                          </Action>
+                          <Action OrderNumber="2" LogLevel="-1" TextAuraOp="DeactivateAura" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Fuchsia" TextAuraOutline="Black" TextAuraName="combo" TextAuraExpression="__" TextAuraXIniExpression="-30" TextAuraYIniExpression="605" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
+                            <Condition Enabled="false" Grouping="And" />
+                            <Conditions />
                           </Action>
                           <Action OrderNumber="3" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="ca71b040-3613-4bb2-a56a-4f0cf22b1069" TriggerForce="regexp" ActionType="Trigger">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
                         </Actions>
                         <Condition Enabled="true" Grouping="And">
@@ -2639,11 +2682,21 @@
                     <Triggers>
                       <Trigger Enabled="true" Sequential="True" Name="Combo 1-&gt;2 Death" Id="431252f4-d8ae-418b-8ea0-0d7fd1ecc27b" RegularExpression="\[.{14}1(5|6):[A-F0-9]{8}:(?&lt;player&gt;[a-zA-Z-' ]{3,21}):8CE:[a-zA-Z0-9-' ]{3,50}:[A-F0-9]{8}:[a-zA-Z0-9-' ]{3,50}:[A-F0-9]{0,8}:[A-F0-9]{0,8}:(2C|5)3D:">
                         <Actions>
-                          <Action OrderNumber="1" LogLevel="-1" VariableOp="SetNumeric" VariableName="combo" VariableExpression="2" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                          <Action OrderNumber="1" LogLevel="-1" VariableName="combo" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
-                          <Action OrderNumber="2" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="ca71b040-3613-4bb2-a56a-4f0cf22b1069" TriggerForce="regexp" ActionType="Trigger">
+                          <Action OrderNumber="2" LogLevel="-1" TextAuraOp="DeactivateAura" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Fuchsia" TextAuraOutline="Black" TextAuraName="combo" TextAuraExpression="__" TextAuraXIniExpression="-30" TextAuraYIniExpression="605" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
+                            <Condition Enabled="false" Grouping="And" />
+                            <Conditions />
+                          </Action>
+                          <Action OrderNumber="3" LogLevel="-1" VariableOp="SetNumeric" VariableName="combo" VariableExpression="2" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
+                          </Action>
+                          <Action OrderNumber="4" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="ca71b040-3613-4bb2-a56a-4f0cf22b1069" TriggerForce="regexp" ActionType="Trigger">
+                            <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
                         </Actions>
                         <Condition Enabled="true" Grouping="And">
@@ -2652,11 +2705,21 @@
                       </Trigger>
                       <Trigger Enabled="true" Sequential="True" Name="Combo 2-&gt;1 Hakke" Id="25d5daf5-3c15-4d58-b53e-ae4accb9b2e4" RegularExpression="\[.{14}1(5|6):[A-F0-9]{8}:(?&lt;player&gt;[a-zA-Z-' ]{3,21}):4068:[a-zA-Z0-9-' ]{3,50}:[A-F0-9]{8}:[a-zA-Z0-9-' ]{3,50}:[A-F0-9]{0,8}:[A-F0-9]{0,8}:(2C|5)3D:">
                         <Actions>
-                          <Action OrderNumber="1" LogLevel="-1" VariableOp="SetNumeric" VariableName="combo" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                          <Action OrderNumber="1" LogLevel="-1" VariableName="combo" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
-                          <Action OrderNumber="2" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="ca71b040-3613-4bb2-a56a-4f0cf22b1069" TriggerForce="regexp" ActionType="Trigger">
+                          <Action OrderNumber="2" LogLevel="-1" TextAuraOp="DeactivateAura" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Fuchsia" TextAuraOutline="Black" TextAuraName="combo" TextAuraExpression="__" TextAuraXIniExpression="-30" TextAuraYIniExpression="605" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
+                            <Condition Enabled="false" Grouping="And" />
+                            <Conditions />
+                          </Action>
+                          <Action OrderNumber="3" LogLevel="-1" VariableOp="SetNumeric" VariableName="combo" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
+                          </Action>
+                          <Action OrderNumber="4" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="ca71b040-3613-4bb2-a56a-4f0cf22b1069" TriggerForce="regexp" ActionType="Trigger">
+                            <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
                         </Actions>
                         <Condition Enabled="true" Grouping="And">
@@ -2665,8 +2728,17 @@
                       </Trigger>
                       <Trigger Enabled="true" Name="Non-combat Non-Combo Update" Id="ca51e53f-510c-4a5a-839c-1855d4812606" RegularExpression="\[.{14}1(5|6):[A-F0-9]{8}:(?&lt;player&gt;[a-zA-Z-' ]{3,21}):(8CE|4068):">
                         <Actions>
-                          <Action OrderNumber="1" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="ca71b040-3613-4bb2-a56a-4f0cf22b1069" TriggerForce="regexp" ActionType="Trigger">
+                          <Action OrderNumber="1" LogLevel="-1" VariableName="combo" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
+                          </Action>
+                          <Action OrderNumber="2" LogLevel="-1" TextAuraOp="DeactivateAura" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Fuchsia" TextAuraOutline="Black" TextAuraName="combo" TextAuraExpression="__" TextAuraXIniExpression="-30" TextAuraYIniExpression="605" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
+                            <Condition Enabled="false" Grouping="And" />
+                            <Conditions />
+                          </Action>
+                          <Action OrderNumber="3" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="ca71b040-3613-4bb2-a56a-4f0cf22b1069" TriggerForce="regexp" ActionType="Trigger">
+                            <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
                         </Actions>
                         <Condition Enabled="false" Grouping="Or" />
@@ -3905,24 +3977,28 @@
                         <Condition Enabled="true" Grouping="And">
                           <ConditionSingle Enabled="true" ExpressionL="${var:combo}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                         </Condition>
+                        <Conditions />
                       </Action>
                       <Action OrderNumber="2" LogLevel="-1" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Fuchsia" TextAuraOutline="Black" TextAuraName="combo" TextAuraExpression="__" TextAuraXIniExpression="-30" TextAuraYIniExpression="605" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraYTickExpression="605+${var:hudYoffset}" TextAuraWTickExpression="${var:width}" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                         <Condition Enabled="true" Grouping="And">
                           <ConditionSingle Enabled="true" ExpressionL="${var:combo}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                           <ConditionSingle Enabled="true" ExpressionL="${var:meikyocount}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                         </Condition>
+                        <Conditions />
                       </Action>
                       <Action OrderNumber="3" LogLevel="-1" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Fuchsia" TextAuraOutline="Black" TextAuraName="combo" TextAuraExpression="               __" TextAuraXIniExpression="-31" TextAuraYIniExpression="605" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraYTickExpression="605+${var:hudYoffset}" TextAuraWTickExpression="${var:width}" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                         <Condition Enabled="true" Grouping="And">
                           <ConditionSingle Enabled="true" ExpressionL="${var:combo}" ExpressionTypeL="Numeric" ExpressionR="2" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                           <ConditionSingle Enabled="true" ExpressionL="${var:meikyocount}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                         </Condition>
+                        <Conditions />
                       </Action>
                       <Action OrderNumber="4" LogLevel="-1" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Fuchsia" TextAuraOutline="Black" TextAuraName="combo" TextAuraExpression="                              __" TextAuraXIniExpression="-31" TextAuraYIniExpression="605" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraYTickExpression="605+${var:hudYoffset}" TextAuraWTickExpression="${var:width}" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                         <Condition Enabled="true" Grouping="And">
                           <ConditionSingle Enabled="true" ExpressionL="${var:combo}" ExpressionTypeL="Numeric" ExpressionR="3" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                           <ConditionSingle Enabled="true" ExpressionL="${var:meikyocount}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                         </Condition>
+                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="And" />
@@ -3947,11 +4023,23 @@
                     <Triggers>
                       <Trigger Enabled="true" Sequential="True" Name="1 Combo 1-&gt;2 Fuga" Id="55a320d4-ffa2-4f49-ace7-c2e0ff46cb6c" RegularExpression="\[.{14}1(5|6):[A-F0-9]{8}:(?&lt;player&gt;[a-zA-Z-' ]{3,21}):1D3B:[a-zA-Z0-9-' ]{3,50}:[A-F0-9]{8}:[a-zA-Z0-9-' ]{3,50}:[A-F0-9]{0,8}:[A-F0-9]{0,8}:1B:">
                         <Actions>
-                          <Action OrderNumber="1" LogLevel="-1" VariableOp="SetNumeric" VariableName="combo" VariableExpression="2" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                          <Action OrderNumber="1" LogLevel="-1" VariableName="combo" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
-                          <Action OrderNumber="2" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="a3366aab-3a78-4f96-9486-5fd81cbe1699" TriggerForce="regexp" ActionType="Trigger">
+                          <Action OrderNumber="2" LogLevel="-1" TextAuraOp="DeactivateAura" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Fuchsia" TextAuraOutline="Black" TextAuraName="combo" TextAuraExpression="__" TextAuraXIniExpression="-30" TextAuraYIniExpression="605" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
+                            <Condition Enabled="false" Grouping="And">
+                              <ConditionSingle Enabled="true" ExpressionL="${var:combo}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                            </Condition>
+                            <Conditions />
+                          </Action>
+                          <Action OrderNumber="3" LogLevel="-1" VariableOp="SetNumeric" VariableName="combo" VariableExpression="2" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
+                          </Action>
+                          <Action OrderNumber="4" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="a3366aab-3a78-4f96-9486-5fd81cbe1699" TriggerForce="regexp" ActionType="Trigger">
+                            <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
                         </Actions>
                         <Condition Enabled="true" Grouping="And">
@@ -3960,14 +4048,27 @@
                       </Trigger>
                       <Trigger Enabled="true" Sequential="True" Name="2 Combo 2-&gt;1 Oka" Id="f9b2919d-46b8-4f72-8b14-94a797852221" RegularExpression="\[.{14}1(5|6):[A-F0-9]{8}:(?&lt;player&gt;[a-zA-Z-' ]{3,21}):1D3D:[a-zA-Z0-9-' ]{3,50}:[A-F0-9]{8}:[a-zA-Z0-9-' ]{3,50}:[A-F0-9]{0,8}:[A-F0-9]{0,8}:43D:">
                         <Actions>
-                          <Action OrderNumber="1" LogLevel="-1" VariableOp="SetNumeric" VariableName="ka" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                          <Action OrderNumber="1" LogLevel="-1" VariableName="combo" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
-                          <Action OrderNumber="2" LogLevel="-1" VariableOp="SetNumeric" VariableName="combo" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
-                            <Condition Enabled="false" Grouping="Or" />
+                          <Action OrderNumber="2" LogLevel="-1" TextAuraOp="DeactivateAura" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Fuchsia" TextAuraOutline="Black" TextAuraName="combo" TextAuraExpression="__" TextAuraXIniExpression="-30" TextAuraYIniExpression="605" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
+                            <Condition Enabled="false" Grouping="And">
+                              <ConditionSingle Enabled="true" ExpressionL="${var:combo}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                            </Condition>
+                            <Conditions />
                           </Action>
-                          <Action OrderNumber="3" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="a3366aab-3a78-4f96-9486-5fd81cbe1699" TriggerForce="regexp" ActionType="Trigger">
+                          <Action OrderNumber="3" LogLevel="-1" VariableOp="SetNumeric" VariableName="ka" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
+                          </Action>
+                          <Action OrderNumber="4" LogLevel="-1" VariableOp="SetNumeric" VariableName="combo" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                            <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
+                          </Action>
+                          <Action OrderNumber="5" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="a3366aab-3a78-4f96-9486-5fd81cbe1699" TriggerForce="regexp" ActionType="Trigger">
+                            <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
                         </Actions>
                         <Condition Enabled="true" Grouping="And">
@@ -3976,14 +4077,27 @@
                       </Trigger>
                       <Trigger Enabled="true" Sequential="True" Name="2 Combo 2-&gt;1 Magetsu" Id="84b9b392-2c63-4042-b106-7319e986f0bc" RegularExpression="\[.{14}1(5|6):[A-F0-9]{8}:(?&lt;player&gt;[a-zA-Z-' ]{3,21}):1D3C:[a-zA-Z0-9-' ]{3,50}:[A-F0-9]{8}:[a-zA-Z0-9-' ]{3,50}:[A-F0-9]{0,8}:[A-F0-9]{0,8}:23D:">
                         <Actions>
-                          <Action OrderNumber="1" LogLevel="-1" VariableOp="SetNumeric" VariableName="getsu" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                          <Action OrderNumber="1" LogLevel="-1" VariableName="combo" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
-                          <Action OrderNumber="2" LogLevel="-1" VariableOp="SetNumeric" VariableName="combo" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
-                            <Condition Enabled="false" Grouping="Or" />
+                          <Action OrderNumber="2" LogLevel="-1" TextAuraOp="DeactivateAura" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Fuchsia" TextAuraOutline="Black" TextAuraName="combo" TextAuraExpression="__" TextAuraXIniExpression="-30" TextAuraYIniExpression="605" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
+                            <Condition Enabled="false" Grouping="And">
+                              <ConditionSingle Enabled="true" ExpressionL="${var:combo}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                            </Condition>
+                            <Conditions />
                           </Action>
-                          <Action OrderNumber="3" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="a3366aab-3a78-4f96-9486-5fd81cbe1699" TriggerForce="regexp" ActionType="Trigger">
+                          <Action OrderNumber="3" LogLevel="-1" VariableOp="SetNumeric" VariableName="getsu" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
+                          </Action>
+                          <Action OrderNumber="4" LogLevel="-1" VariableOp="SetNumeric" VariableName="combo" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                            <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
+                          </Action>
+                          <Action OrderNumber="5" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="a3366aab-3a78-4f96-9486-5fd81cbe1699" TriggerForce="regexp" ActionType="Trigger">
+                            <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
                         </Actions>
                         <Condition Enabled="true" Grouping="And">
@@ -3992,8 +4106,19 @@
                       </Trigger>
                       <Trigger Enabled="true" Name="Non-combat Non-Combo Update" Id="b1bbce63-42bb-4660-8d67-1ebaa1cf1630" RegularExpression="\[.{14}1(5|6):[A-F0-9]{8}:(?&lt;player&gt;[a-zA-Z-' ]{3,21}):(1D3C|1D3D):">
                         <Actions>
-                          <Action OrderNumber="1" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="a3366aab-3a78-4f96-9486-5fd81cbe1699" TriggerForce="regexp" ActionType="Trigger">
+                          <Action OrderNumber="1" LogLevel="-1" VariableName="combo" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
+                          </Action>
+                          <Action OrderNumber="2" LogLevel="-1" TextAuraOp="DeactivateAura" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Fuchsia" TextAuraOutline="Black" TextAuraName="combo" TextAuraExpression="__" TextAuraXIniExpression="-30" TextAuraYIniExpression="605" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
+                            <Condition Enabled="false" Grouping="And">
+                              <ConditionSingle Enabled="true" ExpressionL="${var:combo}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                            </Condition>
+                            <Conditions />
+                          </Action>
+                          <Action OrderNumber="3" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="a3366aab-3a78-4f96-9486-5fd81cbe1699" TriggerForce="regexp" ActionType="Trigger">
+                            <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
                         </Actions>
                         <Condition Enabled="false" Grouping="Or" />
@@ -4005,11 +4130,23 @@
                     <Triggers>
                       <Trigger Enabled="true" Sequential="True" Name="Combo 1-&gt;2 Hakaze" Id="eb287787-0c87-468c-9123-2d4b4484e4a5" RegularExpression="\[.{14}1(5|6):[A-F0-9]{8}:(?&lt;player&gt;[a-zA-Z-' ]{3,21}):1D35:[a-zA-Z0-9-' ]{3,50}:[A-F0-9]{8}:[a-zA-Z0-9-' ]{3,50}:[A-F0-9]{0,8}:[A-F0-9]{0,8}:1B:">
                         <Actions>
-                          <Action OrderNumber="1" LogLevel="-1" VariableOp="SetNumeric" VariableName="combo" VariableExpression="2" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                          <Action OrderNumber="1" LogLevel="-1" VariableName="combo" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
-                          <Action OrderNumber="2" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="a3366aab-3a78-4f96-9486-5fd81cbe1699" TriggerForce="regexp" ActionType="Trigger">
+                          <Action OrderNumber="2" LogLevel="-1" TextAuraOp="DeactivateAura" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Fuchsia" TextAuraOutline="Black" TextAuraName="combo" TextAuraExpression="__" TextAuraXIniExpression="-30" TextAuraYIniExpression="605" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
+                            <Condition Enabled="false" Grouping="And">
+                              <ConditionSingle Enabled="true" ExpressionL="${var:combo}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                            </Condition>
+                            <Conditions />
+                          </Action>
+                          <Action OrderNumber="3" LogLevel="-1" VariableOp="SetNumeric" VariableName="combo" VariableExpression="2" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
+                          </Action>
+                          <Action OrderNumber="4" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="a3366aab-3a78-4f96-9486-5fd81cbe1699" TriggerForce="regexp" ActionType="Trigger">
+                            <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
                         </Actions>
                         <Condition Enabled="true" Grouping="And">
@@ -4018,16 +4155,23 @@
                       </Trigger>
                       <Trigger Enabled="true" Sequential="True" Name="Combo 2-&gt;3 Jinpu" Id="7eaa7a6c-8dcd-4069-b085-093a0fbf45e6" RegularExpression="\[.{14}1(5|6):[A-F0-9]{8}:(?&lt;player&gt;[a-zA-Z-' ]{3,21}):1D36:[a-zA-Z0-9-' ]{3,50}:[A-F0-9]{8}:[a-zA-Z0-9-' ]{3,50}:[A-F0-9]{0,8}:[A-F0-9]{0,8}:D0F:">
                         <Actions>
-                          <Action OrderNumber="1" LogLevel="-1" TextAuraOp="DeactivateAura" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Fuchsia" TextAuraOutline="Black" TextAuraName="combo" TextAuraExpression="__" TextAuraXIniExpression="-30" TextAuraYIniExpression="605" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
+                          <Action OrderNumber="1" LogLevel="-1" VariableName="combo" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                            <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
+                          </Action>
+                          <Action OrderNumber="2" LogLevel="-1" TextAuraOp="DeactivateAura" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Fuchsia" TextAuraOutline="Black" TextAuraName="combo" TextAuraExpression="__" TextAuraXIniExpression="-30" TextAuraYIniExpression="605" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                             <Condition Enabled="false" Grouping="And">
                               <ConditionSingle Enabled="true" ExpressionL="${var:combo}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                             </Condition>
+                            <Conditions />
                           </Action>
-                          <Action OrderNumber="2" LogLevel="-1" VariableOp="SetNumeric" VariableName="combo" VariableExpression="3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                          <Action OrderNumber="3" LogLevel="-1" VariableOp="SetNumeric" VariableName="combo" VariableExpression="3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
-                          <Action OrderNumber="3" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="a3366aab-3a78-4f96-9486-5fd81cbe1699" TriggerForce="regexp" ActionType="Trigger">
+                          <Action OrderNumber="4" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="a3366aab-3a78-4f96-9486-5fd81cbe1699" TriggerForce="regexp" ActionType="Trigger">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
                         </Actions>
                         <Condition Enabled="true" Grouping="And">
@@ -4036,11 +4180,23 @@
                       </Trigger>
                       <Trigger Enabled="true" Sequential="True" Name="Combo 2-&gt;3 Shifu" Id="1a882544-7f8c-4089-81ff-3a88170889eb" RegularExpression="\[.{14}1(5|6):[A-F0-9]{8}:(?&lt;player&gt;[a-zA-Z-' ]{3,21}):1D37:[a-zA-Z0-9-' ]{3,50}:[A-F0-9]{8}:[a-zA-Z0-9-' ]{3,50}:[A-F0-9]{0,8}:[A-F0-9]{0,8}:F30F:">
                         <Actions>
-                          <Action OrderNumber="1" LogLevel="-1" VariableOp="SetNumeric" VariableName="combo" VariableExpression="3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                          <Action OrderNumber="1" LogLevel="-1" VariableName="combo" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
-                          <Action OrderNumber="2" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="a3366aab-3a78-4f96-9486-5fd81cbe1699" TriggerForce="regexp" ActionType="Trigger">
+                          <Action OrderNumber="2" LogLevel="-1" TextAuraOp="DeactivateAura" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Fuchsia" TextAuraOutline="Black" TextAuraName="combo" TextAuraExpression="__" TextAuraXIniExpression="-30" TextAuraYIniExpression="605" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
+                            <Condition Enabled="false" Grouping="And">
+                              <ConditionSingle Enabled="true" ExpressionL="${var:combo}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                            </Condition>
+                            <Conditions />
+                          </Action>
+                          <Action OrderNumber="3" LogLevel="-1" VariableOp="SetNumeric" VariableName="combo" VariableExpression="3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
+                          </Action>
+                          <Action OrderNumber="4" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="a3366aab-3a78-4f96-9486-5fd81cbe1699" TriggerForce="regexp" ActionType="Trigger">
+                            <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
                         </Actions>
                         <Condition Enabled="true" Grouping="And">
@@ -4049,14 +4205,27 @@
                       </Trigger>
                       <Trigger Enabled="true" Sequential="True" Name="Combo 3-&gt;1 Gekko" Id="65fb5058-fabf-46b7-9982-22b2bf90e5b3" RegularExpression="\[.{14}1(5|6):[A-F0-9]{8}:(?&lt;player&gt;[a-zA-Z-' ]{3,21}):1D39:[a-zA-Z0-9-' ]{3,50}:[A-F0-9]{8}:[a-zA-Z0-9-' ]{3,50}:[A-F0-9]{0,8}:[A-F0-9]{0,8}:23D:">
                         <Actions>
-                          <Action OrderNumber="1" LogLevel="-1" VariableOp="SetNumeric" VariableName="getsu" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                          <Action OrderNumber="1" LogLevel="-1" VariableName="combo" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
-                          <Action OrderNumber="2" LogLevel="-1" VariableOp="SetNumeric" VariableName="combo" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
-                            <Condition Enabled="false" Grouping="Or" />
+                          <Action OrderNumber="2" LogLevel="-1" TextAuraOp="DeactivateAura" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Fuchsia" TextAuraOutline="Black" TextAuraName="combo" TextAuraExpression="__" TextAuraXIniExpression="-30" TextAuraYIniExpression="605" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
+                            <Condition Enabled="false" Grouping="And">
+                              <ConditionSingle Enabled="true" ExpressionL="${var:combo}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                            </Condition>
+                            <Conditions />
                           </Action>
-                          <Action OrderNumber="3" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="a3366aab-3a78-4f96-9486-5fd81cbe1699" TriggerForce="regexp" ActionType="Trigger">
+                          <Action OrderNumber="3" LogLevel="-1" VariableOp="SetNumeric" VariableName="getsu" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
+                          </Action>
+                          <Action OrderNumber="4" LogLevel="-1" VariableOp="SetNumeric" VariableName="combo" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                            <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
+                          </Action>
+                          <Action OrderNumber="5" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="a3366aab-3a78-4f96-9486-5fd81cbe1699" TriggerForce="regexp" ActionType="Trigger">
+                            <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
                         </Actions>
                         <Condition Enabled="true" Grouping="And">
@@ -4065,14 +4234,27 @@
                       </Trigger>
                       <Trigger Enabled="true" Sequential="True" Name="Combo 3-&gt;1 Kasha" Id="6626ec3f-1a6f-4952-965b-2176798d83a3" RegularExpression="\[.{14}1(5|6):[A-F0-9]{8}:(?&lt;player&gt;[a-zA-Z-' ]{3,21}):1D3A:[a-zA-Z0-9-' ]{3,50}:[A-F0-9]{8}:[a-zA-Z0-9-' ]{3,50}:[A-F0-9]{0,8}:[A-F0-9]{0,8}:43D:">
                         <Actions>
-                          <Action OrderNumber="1" LogLevel="-1" VariableOp="SetNumeric" VariableName="ka" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                          <Action OrderNumber="1" LogLevel="-1" VariableName="combo" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
-                          <Action OrderNumber="2" LogLevel="-1" VariableOp="SetNumeric" VariableName="combo" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
-                            <Condition Enabled="false" Grouping="Or" />
+                          <Action OrderNumber="2" LogLevel="-1" TextAuraOp="DeactivateAura" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Fuchsia" TextAuraOutline="Black" TextAuraName="combo" TextAuraExpression="__" TextAuraXIniExpression="-30" TextAuraYIniExpression="605" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
+                            <Condition Enabled="false" Grouping="And">
+                              <ConditionSingle Enabled="true" ExpressionL="${var:combo}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                            </Condition>
+                            <Conditions />
                           </Action>
-                          <Action OrderNumber="3" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="a3366aab-3a78-4f96-9486-5fd81cbe1699" TriggerForce="regexp" ActionType="Trigger">
+                          <Action OrderNumber="3" LogLevel="-1" VariableOp="SetNumeric" VariableName="ka" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
+                          </Action>
+                          <Action OrderNumber="4" LogLevel="-1" VariableOp="SetNumeric" VariableName="combo" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                            <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
+                          </Action>
+                          <Action OrderNumber="5" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="a3366aab-3a78-4f96-9486-5fd81cbe1699" TriggerForce="regexp" ActionType="Trigger">
+                            <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
                         </Actions>
                         <Condition Enabled="true" Grouping="And">
@@ -4081,14 +4263,27 @@
                       </Trigger>
                       <Trigger Enabled="true" Sequential="True" Name="Combo 3-&gt;1 Yukkikaze" Id="18c29361-976f-4a30-8796-2e785a903fc8" RegularExpression="\[.{14}1(5|6):[A-F0-9]{8}:(?&lt;player&gt;[a-zA-Z-' ]{3,21}):1D38:[a-zA-Z0-9-' ]{3,50}:[A-F0-9]{8}:[a-zA-Z0-9-' ]{3,50}:[A-F0-9]{0,8}:[A-F0-9]{0,8}:13D:">
                         <Actions>
-                          <Action OrderNumber="1" LogLevel="-1" VariableOp="SetNumeric" VariableName="setsu" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                          <Action OrderNumber="1" LogLevel="-1" VariableName="combo" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
-                          <Action OrderNumber="2" LogLevel="-1" VariableOp="SetNumeric" VariableName="combo" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
-                            <Condition Enabled="false" Grouping="Or" />
+                          <Action OrderNumber="2" LogLevel="-1" TextAuraOp="DeactivateAura" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Fuchsia" TextAuraOutline="Black" TextAuraName="combo" TextAuraExpression="__" TextAuraXIniExpression="-30" TextAuraYIniExpression="605" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
+                            <Condition Enabled="false" Grouping="And">
+                              <ConditionSingle Enabled="true" ExpressionL="${var:combo}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                            </Condition>
+                            <Conditions />
                           </Action>
-                          <Action OrderNumber="3" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="a3366aab-3a78-4f96-9486-5fd81cbe1699" TriggerForce="regexp" ActionType="Trigger">
+                          <Action OrderNumber="3" LogLevel="-1" VariableOp="SetNumeric" VariableName="setsu" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
+                          </Action>
+                          <Action OrderNumber="4" LogLevel="-1" VariableOp="SetNumeric" VariableName="combo" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                            <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
+                          </Action>
+                          <Action OrderNumber="5" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="a3366aab-3a78-4f96-9486-5fd81cbe1699" TriggerForce="regexp" ActionType="Trigger">
+                            <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
                         </Actions>
                         <Condition Enabled="true" Grouping="And">
@@ -4097,16 +4292,19 @@
                       </Trigger>
                       <Trigger Enabled="true" Sequential="True" Name="0 Combo 3-&gt;1 Enpi" Id="7cd57a8f-3080-4850-8768-0dd4f1bbabbd" RegularExpression="\[.{14}1(5|6):[A-F0-9]{8}:(?&lt;player&gt;[a-zA-Z-' ]{3,21}):1D3E:">
                         <Actions>
-                          <Action OrderNumber="1" LogLevel="-1" TextAuraOp="DeactivateAura" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Fuchsia" TextAuraOutline="Black" TextAuraName="combo" TextAuraExpression="__" TextAuraXIniExpression="-30" TextAuraYIniExpression="605" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
+                          <Action OrderNumber="1" LogLevel="-1" VariableName="combo" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                            <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
+                          </Action>
+                          <Action OrderNumber="2" LogLevel="-1" TextAuraOp="DeactivateAura" TextAuraEffect="Bold" TextAuraFontSize="12" TextAuraForeground="Fuchsia" TextAuraOutline="Black" TextAuraName="combo" TextAuraExpression="__" TextAuraXIniExpression="-30" TextAuraYIniExpression="605" TextAuraWIniExpression="1920" TextAuraHIniExpression="41" TextAuraOIniExpression="100" TextAuraUseOutline="True" TextAuraFontName="Microsoft Sans Serif" ActionType="TextAura">
                             <Condition Enabled="false" Grouping="And">
                               <ConditionSingle Enabled="true" ExpressionL="${var:combo}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                             </Condition>
-                          </Action>
-                          <Action OrderNumber="2" LogLevel="-1" VariableName="combo" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
-                            <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
                           <Action OrderNumber="3" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="a3366aab-3a78-4f96-9486-5fd81cbe1699" TriggerForce="regexp" ActionType="Trigger">
                             <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
                           </Action>
                         </Actions>
                         <Condition Enabled="true" Grouping="And">
