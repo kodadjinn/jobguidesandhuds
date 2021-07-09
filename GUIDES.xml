@@ -6094,7 +6094,7 @@
               <Folder Id="dac116ac-1170-44a0-951a-fbcc94f6ba1f" Name="2 Job Guide" Enabled="true">
                 <Folders />
                 <Triggers>
-                  <Trigger Enabled="true" Sequential="True" Name="Objective Tip" Id="612ad40c-d3f6-4e70-b0e8-de16bf6251a7" RegularExpression="\[.{14}1F:[A-F0-9]{8}:(?&lt;player&gt;[a-zA-Z' ]{3,21}):[A-F0-9]{1,2}25:">
+                  <Trigger Enabled="true" Sequential="True" Name="Objective Tip" Id="612ad40c-d3f6-4e70-b0e8-de16bf6251a7" RegularExpression="\[.{14}1F:[A-F0-9]{8}:(?&lt;player&gt;[a-zA-Z' ]{3,21}):225:">
                     <Actions>
                       <Action OrderNumber="1" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="e3efb377-9a9e-4600-b1de-5a8b071a3119" TriggerForce="regexp" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
@@ -6116,15 +6116,15 @@
                         <Condition Enabled="false" Grouping="Or" />
                         <Conditions />
                       </Action>
-                      <Action OrderNumber="6" LogLevel="-1" TextAuraFontSize="11.25" TextAuraName="trainersay" TextAuraExpression="Complete  this example No Mercy window, executing" TextAuraXIniExpression="0" TextAuraYIniExpression="905" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="905+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura" ExecutionDelayExpression="50">
+                      <Action OrderNumber="6" AuraImageMode="CenterImage" AuraName="traineropener" AuraImage="https://i.imgur.com/ER94yaX.jpg" AuraXIniExpression="-3" AuraYIniExpression="0" AuraWIniExpression="1929" AuraHIniExpression="84" AuraOIniExpression="100" AuraWTickExpression="${var:width}" LogLevel="-1" TextAuraFontSize="12" TextAuraName="drgtrainersay" TextAuraExpression="Follow my lead and I'll explain as you progress." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraFontName="Lato" ActionType="Aura">
                         <Condition Enabled="false" Grouping="Or" />
                         <Conditions />
                       </Action>
-                      <Action OrderNumber="7" LogLevel="-1" TextAuraFontSize="11.25" TextAuraName="trainersay2" TextAuraExpression="at least 1 Sonic Break, Eye Gouge and 2 Burst Strikes in it's duration." TextAuraXIniExpression="0" TextAuraYIniExpression="925" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="925+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura" ExecutionDelayExpression="50">
+                      <Action OrderNumber="7" LogLevel="-1" TextAuraFontSize="11.25" TextAuraName="trainersay" TextAuraExpression="Complete  this example No Mercy window, executing" TextAuraXIniExpression="0" TextAuraYIniExpression="905" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="905+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura" ExecutionDelayExpression="50">
                         <Condition Enabled="false" Grouping="Or" />
                         <Conditions />
                       </Action>
-                      <Action OrderNumber="8" AuraImageMode="CenterImage" AuraName="traineropener" AuraImage="https://i.imgur.com/ER94yaX.jpg" AuraXIniExpression="-3" AuraYIniExpression="0" AuraWIniExpression="1929" AuraHIniExpression="84" AuraOIniExpression="100" AuraWTickExpression="${var:width}" LogLevel="-1" TextAuraFontSize="12" TextAuraName="drgtrainersay" TextAuraExpression="Follow my lead and I'll explain as you progress." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraFontName="Lato" ActionType="Aura">
+                      <Action OrderNumber="8" LogLevel="-1" TextAuraFontSize="11.25" TextAuraName="trainersay2" TextAuraExpression="at least 1 Sonic Break, Eye Gouge and 2 Burst Strikes in it's duration." TextAuraXIniExpression="0" TextAuraYIniExpression="925" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="925+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura" ExecutionDelayExpression="50">
                         <Condition Enabled="false" Grouping="Or" />
                         <Conditions />
                       </Action>
