@@ -4436,35 +4436,27 @@
                 <Actions>
                   <Action OrderNumber="1" LogLevel="-1" VariableName="_sonic" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Action>
                   <Action OrderNumber="2" LogLevel="-1" VariableName="_burststrike" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Action>
                   <Action OrderNumber="3" LogLevel="-1" VariableName="_nomercy" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Action>
-                  <Action OrderNumber="4" LogLevel="-1" VariableName="_nomercysoon" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                  <Action OrderNumber="4" LogLevel="-1" VariableName="_eyegouge" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Action>
-                  <Action OrderNumber="5" LogLevel="-1" VariableName="_bloodfestsoon" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                  <Action OrderNumber="5" LogLevel="-1" VariableName="opener" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Action>
-                  <Action OrderNumber="6" LogLevel="-1" VariableName="_eyegouge" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                  <Action OrderNumber="6" LogLevel="-1" VariableName="objective" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Action>
-                  <Action OrderNumber="7" LogLevel="-1" VariableName="opener" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                  <Action OrderNumber="7" LogLevel="-1" VariableName="_nomercysoon" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Action>
-                  <Action OrderNumber="8" LogLevel="-1" VariableName="objective" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                  <Action OrderNumber="8" LogLevel="-1" VariableName="_bloodfestsoon" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                     <Condition Enabled="false" Grouping="Or" />
-                    <Conditions />
                   </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="And" />
@@ -5721,7 +5713,6 @@
                     <Actions>
                       <Action OrderNumber="1" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="e3efb377-9a9e-4600-b1de-5a8b071a3119" TriggerForce="regexp" ActionType="Trigger" ExecutionDelayExpression="59000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="2" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="CancelTrigger" TriggerId="1c04b701-d432-4711-b76b-513feefd379c" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="And">
@@ -5729,59 +5720,46 @@
                           <ConditionSingle Enabled="true" ExpressionL="${var:rotationGuide}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                           <ConditionSingle Enabled="true" ExpressionL="${var:jobGuide}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                         </Condition>
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="3" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="08eece2e-e0d3-416a-923b-5bd88fcc57da" TriggerForce="regexp" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="4" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="fe5d5aad-6433-4357-a655-e97385028b31" TriggerForce="regexp,conditions,parent" ActionType="Trigger" ExecutionDelayExpression="50">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="5" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Placeholder">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="6" AuraImageMode="CenterImage" AuraName="traineropener" AuraImage="https://i.imgur.com/BqVg2nn.jpg" AuraXIniExpression="-3" AuraYIniExpression="0" AuraWIniExpression="1929" AuraHIniExpression="84" AuraOIniExpression="100" AuraWTickExpression="${var:width}" LogLevel="-1" TextAuraFontSize="12" TextAuraName="drgtrainersay" TextAuraExpression="Follow my lead and I'll explain as you progress." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraFontName="Lato" ActionType="Aura" ExecutionDelayExpression="50">
                         <Condition Enabled="true" Grouping="Or">
                           <ConditionSingle Enabled="true" ExpressionL="${var:_bloodfestsoon}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                         </Condition>
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="7" AuraImageMode="CenterImage" AuraName="traineropener" AuraImage="https://i.imgur.com/Ba7t9Zh.jpg" AuraXIniExpression="-3" AuraYIniExpression="0" AuraWIniExpression="1929" AuraHIniExpression="84" AuraOIniExpression="100" AuraWTickExpression="${var:width}" LogLevel="-1" TextAuraFontSize="12" TextAuraName="drgtrainersay" TextAuraExpression="Follow my lead and I'll explain as you progress." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraFontName="Lato" ActionType="Aura">
                         <Condition Enabled="true" Grouping="Or">
                           <ConditionSingle Enabled="true" ExpressionL="${var:_bloodfestsoon}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                         </Condition>
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="8" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Placeholder">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="9" LogLevel="-1" TextAuraFontSize="11.25" TextAuraName="trainersay" TextAuraExpression="No Mercy -&gt; Sonic Break -&gt; Bow Shock" TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="915+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura" ExecutionDelayExpression="50">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="10" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Placeholder">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="11" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="e3efb377-9a9e-4600-b1de-5a8b071a3119" TriggerForce="regexp" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="And" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="12" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="14bc1a33-01c4-4b32-a640-a430892cb3ec" TriggerForce="regexp" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="And" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="13" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Placeholder">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
-                      <Action OrderNumber="14" AuraOp="DeactivateAura" AuraImageMode="CenterImage" AuraName="traineropener" AuraImage="https://i.imgur.com/78IejKD.jpg" AuraXIniExpression="-3" AuraYIniExpression="0" AuraWIniExpression="1929" AuraHIniExpression="84" AuraOIniExpression="100" AuraWTickExpression="${var:width}" LogLevel="-1" TextAuraFontSize="12" TextAuraName="drgtrainersay" TextAuraExpression="Follow my lead and I'll explain as you progress." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraFontName="Lato" ActionType="Aura" ExecutionDelayExpression="23000">
+                      <Action OrderNumber="14" AuraOp="DeactivateAura" AuraImageMode="CenterImage" AuraName="traineropener" AuraImage="https://i.imgur.com/78IejKD.jpg" AuraXIniExpression="-3" AuraYIniExpression="0" AuraWIniExpression="1929" AuraHIniExpression="84" AuraOIniExpression="100" AuraWTickExpression="${var:width}" LogLevel="-1" TextAuraFontSize="12" TextAuraName="drgtrainersay" TextAuraExpression="Follow my lead and I'll explain as you progress." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraFontName="Lato" ActionType="Aura" ExecutionDelayExpression="26000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="true" Grouping="And">
@@ -5823,41 +5801,38 @@
                   </Trigger>
                   <Trigger Enabled="true" Sequential="True" Name="No Mercy 1" Id="b61cd4dc-171b-4aa4-b610-5396fe050891" RegularExpression="1[56]:[A-Z0-9]{8}:(?&lt;player&gt;[a-zA-Z-' ]{2,31}):3F0A:(?&lt;spell&gt;[a-zA-Z ]{1,31}):">
                     <Actions>
-                      <Action OrderNumber="1" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="e3efb377-9a9e-4600-b1de-5a8b071a3119" TriggerForce="regexp" ActionType="Trigger" ExecutionDelayExpression="46000">
+                      <Action OrderNumber="1" UseTTSTextExpression="${spell}" VariableName="_nomercysoon" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
-                      <Action OrderNumber="2" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="08eece2e-e0d3-416a-923b-5bd88fcc57da" TriggerForce="regexp" ActionType="Trigger">
+                      <Action OrderNumber="2" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="e3efb377-9a9e-4600-b1de-5a8b071a3119" TriggerForce="regexp" ActionType="Trigger" ExecutionDelayExpression="46000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
-                      <Action OrderNumber="3" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="fe5d5aad-6433-4357-a655-e97385028b31" TriggerForce="regexp,conditions,parent" ActionType="Trigger" ExecutionDelayExpression="50">
+                      <Action OrderNumber="3" UseTTSTextExpression="${spell}" VariableOp="SetNumeric" VariableName="_nomercysoon" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="4" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Placeholder">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
-                      <Action OrderNumber="5" UseTTSTextExpression="${spell}" VariableOp="SetNumeric" VariableName="_nomercysoon" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                      <Action OrderNumber="5" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="08eece2e-e0d3-416a-923b-5bd88fcc57da" TriggerForce="regexp" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
-                      <Action OrderNumber="6" LogLevel="-1" TextAuraFontSize="11.25" TextAuraName="trainersay" TextAuraExpression="No Mercy soon, store cartriages." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="915+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura" ExecutionDelayExpression="50">
+                      <Action OrderNumber="6" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="fe5d5aad-6433-4357-a655-e97385028b31" TriggerForce="regexp,conditions,parent" ActionType="Trigger" ExecutionDelayExpression="50">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="7" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Placeholder">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
-                      <Action OrderNumber="8" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="e3efb377-9a9e-4600-b1de-5a8b071a3119" TriggerForce="regexp" ActionType="Trigger">
-                        <Condition Enabled="false" Grouping="And" />
-                        <Conditions />
+                      <Action OrderNumber="8" LogLevel="-1" TextAuraFontSize="11.25" TextAuraName="trainersay" TextAuraExpression="No Mercy soon, store cartriages." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="915+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura" ExecutionDelayExpression="50">
+                        <Condition Enabled="false" Grouping="Or" />
                       </Action>
-                      <Action OrderNumber="9" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="14bc1a33-01c4-4b32-a640-a430892cb3ec" TriggerForce="regexp" ActionType="Trigger">
+                      <Action OrderNumber="9" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Placeholder">
+                        <Condition Enabled="false" Grouping="Or" />
+                      </Action>
+                      <Action OrderNumber="10" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="e3efb377-9a9e-4600-b1de-5a8b071a3119" TriggerForce="regexp" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="And" />
-                        <Conditions />
+                      </Action>
+                      <Action OrderNumber="11" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="14bc1a33-01c4-4b32-a640-a430892cb3ec" TriggerForce="regexp" ActionType="Trigger">
+                        <Condition Enabled="false" Grouping="And" />
                       </Action>
                     </Actions>
                     <Condition Enabled="true" Grouping="And">
@@ -5894,7 +5869,7 @@
                       <Action OrderNumber="9" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="CancelTrigger" TriggerId="06d9c88f-045f-4b03-a222-bec0a8ccd6f5" TriggerForce="regexp" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
-                      <Action OrderNumber="10" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="CancelTrigger" TriggerId="d870a4ef-d4a1-4b34-b0b5-3578a507e994" TriggerForce="regexp" ActionType="Trigger">
+                      <Action OrderNumber="10" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="CancelTrigger" TriggerId="33f30283-6329-4322-9d0e-39bc2b609aef" TriggerForce="regexp" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
                       <Action OrderNumber="11" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="CancelTrigger" TriggerId="1c04b701-d432-4711-b76b-513feefd379c" TriggerForce="regexp" ActionType="Trigger">
@@ -5923,49 +5898,45 @@
                   </Trigger>
                   <Trigger Enabled="true" Sequential="True" Name="Bloodfest Soon" Id="33f30283-6329-4322-9d0e-39bc2b609aef" RegularExpression="You use Bloodfest.">
                     <Actions>
-                      <Action OrderNumber="1" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="e3efb377-9a9e-4600-b1de-5a8b071a3119" TriggerForce="regexp" ActionType="Trigger" ExecutionDelayExpression="83000">
+                      <Action OrderNumber="1" UseTTSTextExpression="${spell}" VariableName="_bloodfestsoon" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
-                      <Action OrderNumber="2" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="08eece2e-e0d3-416a-923b-5bd88fcc57da" TriggerForce="regexp" ActionType="Trigger">
+                      <Action OrderNumber="2" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="e3efb377-9a9e-4600-b1de-5a8b071a3119" TriggerForce="regexp" ActionType="Trigger" ExecutionDelayExpression="83000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
-                      <Action OrderNumber="3" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="fe5d5aad-6433-4357-a655-e97385028b31" TriggerForce="regexp,conditions,parent" ActionType="Trigger" ExecutionDelayExpression="50">
+                      <Action OrderNumber="3" UseTTSTextExpression="${spell}" VariableOp="SetNumeric" VariableName="_bloodfestsoon" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="4" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Placeholder">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
-                      <Action OrderNumber="5" UseTTSTextExpression="${spell}" VariableOp="SetNumeric" VariableName="_bloodfestsoon" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                      <Action OrderNumber="5" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="08eece2e-e0d3-416a-923b-5bd88fcc57da" TriggerForce="regexp" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
-                      <Action OrderNumber="6" LogLevel="-1" TextAuraFontSize="11.25" TextAuraName="trainersay" TextAuraExpression="Hold Bloodfest." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="915+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura">
+                      <Action OrderNumber="6" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="fe5d5aad-6433-4357-a655-e97385028b31" TriggerForce="regexp,conditions,parent" ActionType="Trigger" ExecutionDelayExpression="50">
+                        <Condition Enabled="false" Grouping="Or" />
+                      </Action>
+                      <Action OrderNumber="7" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Placeholder">
+                        <Condition Enabled="false" Grouping="Or" />
+                      </Action>
+                      <Action OrderNumber="8" LogLevel="-1" TextAuraFontSize="11.25" TextAuraName="trainersay" TextAuraExpression="Hold Bloodfest." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="915+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura">
                         <Condition Enabled="true" Grouping="Or">
                           <ConditionSingle Enabled="true" ExpressionL="${var:_nomercysoon}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                         </Condition>
-                        <Conditions />
                       </Action>
-                      <Action OrderNumber="7" LogLevel="-1" TextAuraFontSize="11.25" TextAuraName="trainersay" TextAuraExpression="Bloodfest soon, spend cartridges." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="915+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura">
+                      <Action OrderNumber="9" LogLevel="-1" TextAuraFontSize="11.25" TextAuraName="trainersay" TextAuraExpression="Bloodfest soon, spend cartridges." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="915+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura">
                         <Condition Enabled="true" Grouping="Or">
                           <ConditionSingle Enabled="true" ExpressionL="${var:_nomercysoon}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                         </Condition>
-                        <Conditions />
                       </Action>
-                      <Action OrderNumber="8" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Placeholder">
+                      <Action OrderNumber="10" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Placeholder">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
-                      <Action OrderNumber="9" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="e3efb377-9a9e-4600-b1de-5a8b071a3119" TriggerForce="regexp" ActionType="Trigger">
+                      <Action OrderNumber="11" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="e3efb377-9a9e-4600-b1de-5a8b071a3119" TriggerForce="regexp" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="And" />
-                        <Conditions />
                       </Action>
-                      <Action OrderNumber="10" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="14bc1a33-01c4-4b32-a640-a430892cb3ec" TriggerForce="regexp" ActionType="Trigger">
+                      <Action OrderNumber="12" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="14bc1a33-01c4-4b32-a640-a430892cb3ec" TriggerForce="regexp" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="And" />
-                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="true" Grouping="And">
@@ -6429,49 +6400,35 @@
                     <Actions>
                       <Action OrderNumber="1" UseTTSTextExpression="${spell}" VariableName="_burststrike" VariableExpression="${var:burststrike}+1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="2" UseTTSTextExpression="${spell}" VariableName="_eyegouge" VariableExpression="${var:burststrike}+1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
                       <Action OrderNumber="3" UseTTSTextExpression="${spell}" VariableName="_sonic" VariableExpression="${var:burststrike}+1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
-                      <Action OrderNumber="4" UseTTSTextExpression="${spell}" VariableName="_nomercysoon" VariableExpression="0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                      <Action OrderNumber="4" UseTTSTextExpression="${spell}" VariableOp="SetNumeric" VariableName="_nomercy" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
-                      <Action OrderNumber="5" UseTTSTextExpression="${spell}" VariableName="_bloodfestsoon" VariableExpression="0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                      <Action OrderNumber="5" UseTTSTextExpression="${spell}" VariableName="_nomercy" VariableExpression="0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" ExecutionDelayExpression="20000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
-                      <Action OrderNumber="6" UseTTSTextExpression="${spell}" VariableOp="SetNumeric" VariableName="_nomercy" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                      <Action OrderNumber="6" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Placeholder">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
-                      <Action OrderNumber="7" UseTTSTextExpression="${spell}" VariableName="_nomercy" VariableExpression="0" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" ExecutionDelayExpression="20000">
+                      <Action OrderNumber="7" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="9a8db6c7-7cde-43ba-9f82-e40224d7542f" TriggerForce="regexp" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
-                      <Action OrderNumber="8" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="9a8db6c7-7cde-43ba-9f82-e40224d7542f" TriggerForce="regexp" ActionType="Trigger">
+                      <Action OrderNumber="8" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="34f92969-e6be-425e-87b5-07c3fc129ae3" TriggerForce="regexp" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
-                      <Action OrderNumber="9" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="34f92969-e6be-425e-87b5-07c3fc129ae3" TriggerForce="regexp" ActionType="Trigger">
+                      <Action OrderNumber="9" UseTTSTextExpression="${spell}" VariableName="objective" VariableExpression="${var:burststrike}+1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" ExecutionDelayExpression="39000">
                         <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
                       </Action>
-                      <Action OrderNumber="10" UseTTSTextExpression="${spell}" VariableName="objective" VariableExpression="${var:burststrike}+1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" ExecutionDelayExpression="39000">
-                        <Condition Enabled="false" Grouping="Or" />
-                        <Conditions />
-                      </Action>
-                      <Action OrderNumber="11" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="612ad40c-d3f6-4e70-b0e8-de16bf6251a7" TriggerForce="regexp,conditions" ActionType="Trigger">
+                      <Action OrderNumber="10" LogLevel="-1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="612ad40c-d3f6-4e70-b0e8-de16bf6251a7" TriggerForce="regexp,conditions" ActionType="Trigger">
                         <Condition Enabled="true" Grouping="And">
                           <ConditionSingle Enabled="true" ExpressionL="${var:jobGuide}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                         </Condition>
-                        <Conditions />
                       </Action>
                     </Actions>
                     <Condition Enabled="true" Grouping="Or">
