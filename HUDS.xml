@@ -78,9 +78,23 @@
                           <ConditionSingle Enabled="true" ExpressionL="${var:hudenabled}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                         </Condition>
                       </Trigger>
-                      <Trigger Enabled="true" Name="Twin Snakes End" Id="7dcc3a55-9e2a-48c3-ad47-bfb61ccfb475" RegularExpression="You lose the effect of Disciplined Fist.">
+                      <Trigger Enabled="true" Name="Twin Snakes Timeout (Culled Instances)" Id="7dcc3a55-9e2a-48c3-ad47-bfb61ccfb475" RegularExpression="You use Twin Snakes.">
+                        <Actions>
+                          <Action OrderNumber="1" VariableName="twin" VariableExpression="15" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable" ExecutionDelayExpression="16000">
+                            <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
+                          </Action>
+                        </Actions>
+                        <Condition Enabled="false" Grouping="Or" />
+                        <Conditions />
+                      </Trigger>
+                      <Trigger Enabled="true" Name="Twin Snakes End" Id="36bd8fe2-f2ab-4ea0-a6ad-04c7fa01ea39" RegularExpression="You lose the effect of Disciplined Fist.">
                         <Actions>
                           <Action OrderNumber="1" VariableName="twin" VariableExpression="15" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                            <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
+                          </Action>
+                          <Action OrderNumber="2" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerOp="CancelTrigger" TriggerId="7dcc3a55-9e2a-48c3-ad47-bfb61ccfb475" ActionType="Trigger">
                             <Condition Enabled="false" Grouping="Or" />
                             <Conditions />
                           </Action>
