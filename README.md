@@ -34,12 +34,10 @@ Endwalker Guides: WAR, MCH, SMN, DRK, DRG, RPR, MNK
 
 ===Troubleshooting===
 
-Ensure that you have at least one text channel that displays /e aka /echo text.
-
+Enable all Battle text in one of the in-game chat tabs.
+Ensure that you have at least one text tab that displays /e aka /echo text.
 Echo the command to yourself by adding /e before it. Example: /e /opener
-
 Enable Borderless Windowed or Windowed Mode before entering a command.
-
 You do not need to use potions to complete openers.
 
 
