@@ -51,4 +51,4 @@ https://www.nexusmods.com/finalfantasy14/mods/555
 
 ===Tip===
 
-ko-fi.com/kodadjiin
+https://www.ko-fi.com/kodadjiin
