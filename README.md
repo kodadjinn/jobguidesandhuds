@@ -11,8 +11,8 @@ Easily the most mind rattling Job to convey.
 ===Work in Progress===
 
 Making surprisingly good pace. 50% done in 2 months.
-Fatigue is kicking in but this new workflow is solid.
-I have faith that once complete, maintainence and even updating to expansions will be far less grueling.
+
+Fatigue is kicking in but this new workflow is solid. I have faith that once complete, maintainence and even updating to expansions will be far less grueling.
 
 
 ===Commands===
