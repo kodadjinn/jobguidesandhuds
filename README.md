@@ -1,4 +1,4 @@
-===Installation===
+===Setup===
 
 ACT and Triggernomety Plugin Setup: https://imgur.com/a/YCdgK7k
 
