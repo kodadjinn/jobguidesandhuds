@@ -22,11 +22,12 @@ Preview Video: https://youtu.be/kwd2b2jXyTc?t=15
 
 /e /endguide 
 
-/e /opener will skip all intro dialogue. Useful for simply practicing your rotation.
+/e /opener will skip all intro dialogue. Useful for simply practicing your rotation withouut RP text.
 
 ===Endwalker Progress===
 
 Openers: All Battle Jobs.
+
 Endwalker Guides: WAR, MCH, SMN, DRK, DRG, RPR, MNK, RDM, GNB
 
 ===Troubleshooting===
