@@ -1,10 +1,10 @@
+Preview Video: https://youtu.be/kwd2b2jXyTc?t=15
+
 ===Setup===
 
 ACT and Triggernomety Plugin Setup: https://imgur.com/a/YCdgK7k
 
 Auto-Update Repo URL: https://raw.githubusercontent.com/kodadjinn/jobguidesandhuds/main/GUIDES.xml
-
-Preview Video: https://youtu.be/kwd2b2jXyTc?t=15
 
 ===Commands (All Battle Jobs)===
 
