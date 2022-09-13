@@ -18508,7 +18508,7 @@
                       <Action OrderNumber="7" VariableOp="SetNumeric" VariableName="rotationGuide" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
-                      <Action OrderNumber="8" AuraImageMode="CenterImage" AuraName="traineropener" AuraImage="https://i.imgur.com/UjRW07E.jpg" AuraXIniExpression="-3" AuraYIniExpression="0" AuraWIniExpression="1929" AuraHIniExpression="185" AuraOIniExpression="100" AuraYTickExpression="${var:Yoffset}" AuraWTickExpression="${var:width}" TextAuraFontSize="12" TextAuraName="drgtrainersay" TextAuraExpression="Follow my lead and I'll explain as you progress." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraFontName="Lato" ActionType="Aura">
+                      <Action OrderNumber="8" AuraImageMode="CenterImage" AuraName="traineropener" AuraImage="https://i.imgur.com/SXhntgF.jpg" AuraXIniExpression="-3" AuraYIniExpression="0" AuraWIniExpression="1929" AuraHIniExpression="140" AuraOIniExpression="100" AuraYTickExpression="${var:Yoffset}" AuraWTickExpression="${var:width}" TextAuraFontSize="12" TextAuraName="drgtrainersay" TextAuraExpression="Follow my lead and I'll explain as you progress." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraFontName="Lato" ActionType="Aura">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
                     </Actions>
@@ -18532,7 +18532,7 @@
                           <Action OrderNumber="3" VariableOp="SetNumeric" VariableName="rotationGuide" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
                           </Action>
-                          <Action OrderNumber="4" AuraImageMode="CenterImage" AuraName="traineropener" AuraImage="https://i.imgur.com/bTvIXgw.jpg" AuraXIniExpression="-3" AuraYIniExpression="0" AuraWIniExpression="1929" AuraHIniExpression="163" AuraOIniExpression="100" AuraYTickExpression="${var:Yoffset}" AuraWTickExpression="${var:width}" TextAuraFontSize="12" TextAuraName="drgtrainersay" TextAuraExpression="Follow my lead and I'll explain as you progress." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraFontName="Lato" ActionType="Aura">
+                          <Action OrderNumber="4" AuraImageMode="CenterImage" AuraName="traineropener" AuraImage="https://i.imgur.com/PA29WbQ.jpg" AuraXIniExpression="-3" AuraYIniExpression="0" AuraWIniExpression="1929" AuraHIniExpression="163" AuraOIniExpression="100" AuraYTickExpression="${var:Yoffset}" AuraWTickExpression="${var:width}" TextAuraFontSize="12" TextAuraName="drgtrainersay" TextAuraExpression="Follow my lead and I'll explain as you progress." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraFontName="Lato" ActionType="Aura">
                             <Condition Enabled="false" Grouping="Or" />
                           </Action>
                         </Actions>
@@ -18594,7 +18594,7 @@
                       </Trigger>
                       <Trigger Enabled="true" Sequential="True" Name="Rotation 1: Opener Check" Id="5c240291-01a2-4874-9f9b-3d00b5e05f29" RegularExpression="You use Air Anchor">
                         <Actions>
-                          <Action OrderNumber="1" VariableName="isHypercharge" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="300164fd-f31a-431c-a94d-5369d361669e" TriggerForce="regexp" ActionType="Trigger" ExecutionDelayExpression="24500">
+                          <Action OrderNumber="1" VariableName="isHypercharge" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="300164fd-f31a-431c-a94d-5369d361669e" TriggerForce="regexp" ActionType="Trigger" ExecutionDelayExpression="14000">
                             <Condition Enabled="true" Grouping="And">
                               <ConditionSingle Enabled="true" ExpressionL="${var:heatBlast}" ExpressionTypeL="Numeric" ExpressionR="4" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                               <ConditionSingle Enabled="true" ExpressionL="${var:blaster}" ExpressionTypeL="Numeric" ExpressionR="3" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
@@ -18809,27 +18809,17 @@
                     <Triggers>
                       <Trigger Enabled="true" Sequential="True" Name="Rotation Loop Stage" Id="76cd2fc3-20c3-429b-85e7-ac794be58413" RegularExpression="">
                         <Actions>
-                          <Action OrderNumber="1" AuraImageMode="CenterImage" AuraName="traineropener" AuraImage="https://i.imgur.com/bTvIXgw.jpg" AuraXIniExpression="-3" AuraYIniExpression="0" AuraWIniExpression="1929" AuraHIniExpression="163" AuraOIniExpression="100" AuraYTickExpression="${var:Yoffset}" AuraWTickExpression="${var:width}" TextAuraFontSize="12" TextAuraName="drgtrainersay" TextAuraExpression="Follow my lead and I'll explain as you progress." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraFontName="Lato" ActionType="Aura">
+                          <Action OrderNumber="1" AuraImageMode="CenterImage" AuraName="traineropener" AuraImage="https://i.imgur.com/NDiYap4.jpg" AuraXIniExpression="-3" AuraYIniExpression="0" AuraWIniExpression="1929" AuraHIniExpression="163" AuraOIniExpression="100" AuraYTickExpression="${var:Yoffset}" AuraWTickExpression="${var:width}" TextAuraFontSize="12" TextAuraName="drgtrainersay" TextAuraExpression="Follow my lead and I'll explain as you progress." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraFontName="Lato" ActionType="Aura">
                             <Condition Enabled="true" Grouping="And">
-                              <ConditionSingle Enabled="true" ExpressionL="${var:barrel}" ExpressionTypeL="Numeric" ExpressionR="90" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                              <ConditionSingle Enabled="true" ExpressionL="${var:barrel}" ExpressionTypeL="Numeric" ExpressionR="101" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                             </Condition>
                           </Action>
-                          <Action OrderNumber="2" AuraImageMode="CenterImage" AuraName="traineropener" AuraImage="https://i.imgur.com/6EUopHN.jpg" AuraXIniExpression="-3" AuraYIniExpression="0" AuraWIniExpression="1929" AuraHIniExpression="163" AuraOIniExpression="100" AuraYTickExpression="${var:Yoffset}" AuraWTickExpression="${var:width}" TextAuraFontSize="12" TextAuraName="drgtrainersay" TextAuraExpression="Follow my lead and I'll explain as you progress." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraFontName="Lato" ActionType="Aura">
+                          <Action OrderNumber="2" AuraImageMode="CenterImage" AuraName="traineropener" AuraImage="https://i.imgur.com/I9Ywnd4.jpg" AuraXIniExpression="-3" AuraYIniExpression="0" AuraWIniExpression="1929" AuraHIniExpression="163" AuraOIniExpression="100" AuraYTickExpression="${var:Yoffset}" AuraWTickExpression="${var:width}" TextAuraFontSize="12" TextAuraName="drgtrainersay" TextAuraExpression="Follow my lead and I'll explain as you progress." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraFontName="Lato" ActionType="Aura">
                             <Condition Enabled="true" Grouping="And">
-                              <ConditionSingle Enabled="true" ExpressionL="${var:barrel}" ExpressionTypeL="Numeric" ExpressionR="60" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                              <ConditionSingle Enabled="true" ExpressionL="${var:barrel}" ExpressionTypeL="Numeric" ExpressionR="4" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                             </Condition>
                           </Action>
-                          <Action OrderNumber="3" AuraImageMode="CenterImage" AuraName="traineropener" AuraImage="https://i.imgur.com/xcQsbqG.jpg" AuraXIniExpression="-3" AuraYIniExpression="0" AuraWIniExpression="1929" AuraHIniExpression="163" AuraOIniExpression="100" AuraYTickExpression="${var:Yoffset}" AuraWTickExpression="${var:width}" TextAuraFontSize="12" TextAuraName="drgtrainersay" TextAuraExpression="Follow my lead and I'll explain as you progress." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraFontName="Lato" ActionType="Aura">
-                            <Condition Enabled="true" Grouping="And">
-                              <ConditionSingle Enabled="true" ExpressionL="${var:barrel}" ExpressionTypeL="Numeric" ExpressionR="49" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
-                            </Condition>
-                          </Action>
-                          <Action OrderNumber="4" AuraImageMode="CenterImage" AuraName="traineropener" AuraImage="https://i.imgur.com/ZVmBR3M.jpg" AuraXIniExpression="-3" AuraYIniExpression="0" AuraWIniExpression="1929" AuraHIniExpression="163" AuraOIniExpression="100" AuraYTickExpression="${var:Yoffset}" AuraWTickExpression="${var:width}" TextAuraFontSize="12" TextAuraName="drgtrainersay" TextAuraExpression="Follow my lead and I'll explain as you progress." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraFontName="Lato" ActionType="Aura">
-                            <Condition Enabled="true" Grouping="And">
-                              <ConditionSingle Enabled="true" ExpressionL="${var:barrel}" ExpressionTypeL="Numeric" ExpressionR="8" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
-                            </Condition>
-                          </Action>
-                          <Action OrderNumber="5" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="SystemBeep">
+                          <Action OrderNumber="3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="SystemBeep">
                             <Condition Enabled="false" Grouping="Or" />
                           </Action>
                         </Actions>
@@ -18944,43 +18934,34 @@
                       <Action OrderNumber="9" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Placeholder">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
-                      <Action OrderNumber="10" TextAuraFontSize="11.25" TextAuraName="trainersay" TextAuraExpression="My only advice is keeping Chain Saw, Air Anchor" TextAuraXIniExpression="0" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="905+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura" ExecutionDelayExpression="10000">
+                      <Action OrderNumber="10" TextAuraFontSize="11.25" TextAuraName="trainersay" TextAuraExpression="Complete the Standard Opener and practice for at least 180s." TextAuraXIniExpression="0" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="905+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura" ExecutionDelayExpression="10000">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
-                      <Action OrderNumber="11" TextAuraFontSize="11.25" TextAuraName="trainersay2" TextAuraExpression="and Drill on Recast, even if they do not align with Hypercharge." TextAuraXIniExpression="0" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="925+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura">
+                      <Action OrderNumber="11" TextAuraEffect="Italic" TextAuraFontSize="11.25" TextAuraName="trainersay2" TextAuraExpression="(Wait for Recast timers if needed.)" TextAuraXIniExpression="0" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="935+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
-                      <Action OrderNumber="12" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Placeholder">
+                      <Action OrderNumber="12" TextAuraOp="DeactivateAura" TextAuraFontSize="11.25" TextAuraName="trainersay3" TextAuraExpression="offsetting Gnashing Fang (28.8s) and Sonic Break (57.6s) by using a single GCD." TextAuraXIniExpression="0" TextAuraYIniExpression="935" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="935+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
-                      <Action OrderNumber="13" TextAuraFontSize="11.25" TextAuraName="trainersay" TextAuraExpression="Complete the Standard Opener and practice for at least 180s." TextAuraXIniExpression="0" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="905+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura" ExecutionDelayExpression="10000">
+                      <Action OrderNumber="13" AuraImageMode="CenterImage" AuraName="traineropener" AuraImage="https://i.imgur.com/SXhntgF.jpg" AuraXIniExpression="-3" AuraYIniExpression="0" AuraWIniExpression="1929" AuraHIniExpression="140" AuraOIniExpression="100" AuraYTickExpression="${var:Yoffset}" AuraWTickExpression="${var:width}" TextAuraFontSize="12" TextAuraName="drgtrainersay" TextAuraExpression="Follow my lead and I'll explain as you progress." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraFontName="Lato" ActionType="Aura">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
-                      <Action OrderNumber="14" TextAuraEffect="Italic" TextAuraFontSize="11.25" TextAuraName="trainersay2" TextAuraExpression="(Wait for Recast timers if needed.)" TextAuraXIniExpression="0" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="935+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura">
+                      <Action OrderNumber="14" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Placeholder">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
-                      <Action OrderNumber="15" TextAuraOp="DeactivateAura" TextAuraFontSize="11.25" TextAuraName="trainersay3" TextAuraExpression="offsetting Gnashing Fang (28.8s) and Sonic Break (57.6s) by using a single GCD." TextAuraXIniExpression="0" TextAuraYIniExpression="935" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="935+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura">
+                      <Action OrderNumber="15" TextAuraFontSize="11.25" TextAuraForeground="Yellow" TextAuraOutline="#FF8000" TextAuraName="trainersay" TextAuraExpression="I willl assist you along they way." TextAuraXIniExpression="0" TextAuraYIniExpression="905" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="905+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraUseOutline="True" TextAuraFontName="Lato" ActionType="TextAura" ExecutionDelayExpression="7000">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
-                      <Action OrderNumber="16" AuraImageMode="CenterImage" AuraName="traineropener" AuraImage="https://i.imgur.com/bTvIXgw.jpg" AuraXIniExpression="-3" AuraYIniExpression="0" AuraWIniExpression="1929" AuraHIniExpression="163" AuraOIniExpression="100" AuraYTickExpression="${var:Yoffset}" AuraWTickExpression="${var:width}" TextAuraFontSize="12" TextAuraName="drgtrainersay" TextAuraExpression="Follow my lead and I'll explain as you progress." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraFontName="Lato" ActionType="Aura">
+                      <Action OrderNumber="16" TextAuraFontSize="11.25" TextAuraName="trainersay2" TextAuraExpression="When satisfied enter &quot;/endguide&quot; to exit this guide." TextAuraXIniExpression="0" TextAuraYIniExpression="930" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="930+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
                       <Action OrderNumber="17" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Placeholder">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
-                      <Action OrderNumber="18" TextAuraFontSize="11.25" TextAuraForeground="Yellow" TextAuraOutline="#FF8000" TextAuraName="trainersay" TextAuraExpression="I willl assist you along they way." TextAuraXIniExpression="0" TextAuraYIniExpression="905" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="905+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraUseOutline="True" TextAuraFontName="Lato" ActionType="TextAura" ExecutionDelayExpression="7000">
+                      <Action OrderNumber="18" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="da07dbf6-f741-4650-97c7-1fda10ca71a0" TriggerForce="regexp" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
-                      <Action OrderNumber="19" TextAuraFontSize="11.25" TextAuraName="trainersay2" TextAuraExpression="When satisfied enter &quot;/endguide&quot; to exit this guide." TextAuraXIniExpression="0" TextAuraYIniExpression="930" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="930+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura">
-                        <Condition Enabled="false" Grouping="Or" />
-                      </Action>
-                      <Action OrderNumber="20" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Placeholder">
-                        <Condition Enabled="false" Grouping="Or" />
-                      </Action>
-                      <Action OrderNumber="21" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="da07dbf6-f741-4650-97c7-1fda10ca71a0" TriggerForce="regexp" ActionType="Trigger">
-                        <Condition Enabled="false" Grouping="Or" />
-                      </Action>
-                      <Action OrderNumber="22" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="07e97fa2-e197-494d-bb22-ccf33525d2c7" TriggerForce="regexp" ActionType="Trigger" ExecutionDelayExpression="50">
+                      <Action OrderNumber="19" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="07e97fa2-e197-494d-bb22-ccf33525d2c7" TriggerForce="regexp" ActionType="Trigger" ExecutionDelayExpression="50">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
                     </Actions>
@@ -19565,7 +19546,7 @@
                           <Action OrderNumber="16" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Placeholder">
                             <Condition Enabled="false" Grouping="Or" />
                           </Action>
-                          <Action OrderNumber="17" TextAuraFontSize="11.25" TextAuraName="trainersay" TextAuraExpression="As you can tell Machinist is a job you learn in practice." TextAuraXIniExpression="0" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="915+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura" ExecutionDelayExpression="7000">
+                          <Action OrderNumber="17" TextAuraFontSize="11.25" TextAuraName="trainersay" TextAuraExpression="As you can see Machinist is a job you learn in practice." TextAuraXIniExpression="0" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="915+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura" ExecutionDelayExpression="7000">
                             <Condition Enabled="false" Grouping="Or" />
                           </Action>
                           <Action OrderNumber="18" TextAuraOp="DeactivateAura" TextAuraFontSize="11.25" TextAuraName="trainersay2" TextAuraExpression="but it's a job you learn in practice rather than study." TextAuraXIniExpression="0" TextAuraYIniExpression="925" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="925+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura">
@@ -19574,7 +19555,7 @@
                           <Action OrderNumber="19" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Placeholder">
                             <Condition Enabled="false" Grouping="Or" />
                           </Action>
-                          <Action OrderNumber="20" TextAuraFontSize="11.25" TextAuraName="trainersay" TextAuraExpression="Speaking of &quot;learning in practice,&quot; I recommend practicing your rotation." TextAuraXIniExpression="0" TextAuraYIniExpression="905" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="905+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura" ExecutionDelayExpression="14000">
+                          <Action OrderNumber="20" TextAuraFontSize="11.25" TextAuraName="trainersay" TextAuraExpression="Speaking of practice. I recommend practicing your rotation." TextAuraXIniExpression="0" TextAuraYIniExpression="905" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="905+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura" ExecutionDelayExpression="14000">
                             <Condition Enabled="false" Grouping="Or" />
                           </Action>
                           <Action OrderNumber="21" TextAuraFontSize="11.25" TextAuraName="trainersay2" TextAuraExpression="Enter /rotationguide for rotation assistance." TextAuraXIniExpression="0" TextAuraYIniExpression="925" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="925+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura">
@@ -19722,10 +19703,8 @@
                           <Action OrderNumber="5" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="76cd2fc3-20c3-429b-85e7-ac794be58413" TriggerForce="regexp" ActionType="Trigger">
                             <Condition Enabled="true" Grouping="And">
                               <ConditionGroup Enabled="true" Grouping="Or">
-                                <ConditionSingle Enabled="true" ExpressionL="${var:barrel}" ExpressionTypeL="Numeric" ExpressionR="8" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
-                                <ConditionSingle Enabled="true" ExpressionL="${var:barrel}" ExpressionTypeL="Numeric" ExpressionR="49" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
-                                <ConditionSingle Enabled="true" ExpressionL="${var:barrel}" ExpressionTypeL="Numeric" ExpressionR="60" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
-                                <ConditionSingle Enabled="true" ExpressionL="${var:barrel}" ExpressionTypeL="Numeric" ExpressionR="90" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                                <ConditionSingle Enabled="true" ExpressionL="${var:barrel}" ExpressionTypeL="Numeric" ExpressionR="4" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                                <ConditionSingle Enabled="true" ExpressionL="${var:barrel}" ExpressionTypeL="Numeric" ExpressionR="101" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                               </ConditionGroup>
                               <ConditionSingle Enabled="true" ExpressionL="${var:opener}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                             </Condition>
