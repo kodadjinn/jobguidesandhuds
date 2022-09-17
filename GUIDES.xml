@@ -2063,7 +2063,7 @@
                           <Action OrderNumber="15" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Placeholder">
                             <Condition Enabled="false" Grouping="Or" />
                           </Action>
-                          <Action OrderNumber="16" TextAuraFontSize="11.25" TextAuraName="trainersay" TextAuraExpression="I cannot express in words how important it is to use these two Enhancements on Recast, so I wont." TextAuraXIniExpression="0" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="905+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura" ExecutionDelayExpression="14000">
+                          <Action OrderNumber="16" TextAuraFontSize="11.25" TextAuraName="trainersay" TextAuraExpression="I cannot express in words how important it is to use these two Enhancements on Recast." TextAuraXIniExpression="0" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="905+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura" ExecutionDelayExpression="14000">
                             <Condition Enabled="false" Grouping="Or" />
                           </Action>
                           <Action OrderNumber="17" TextAuraFontSize="11.25" TextAuraName="trainersay2" TextAuraExpression="Execute this sequence 3 times, hitting every Ability on reacst. Observe how it aligns." TextAuraXIniExpression="0" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="925+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura">
@@ -2171,10 +2171,10 @@
                           <Action OrderNumber="14" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Placeholder">
                             <Condition Enabled="false" Grouping="Or" />
                           </Action>
-                          <Action OrderNumber="15" TextAuraFontSize="11.25" TextAuraName="trainersay" TextAuraExpression="Eventually both enhancements will align again," TextAuraXIniExpression="0" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="905+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura" ExecutionDelayExpression="5000">
+                          <Action OrderNumber="15" TextAuraFontSize="11.25" TextAuraName="trainersay" TextAuraExpression="Eventually both enhancements will align with your" TextAuraXIniExpression="0" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="905+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura" ExecutionDelayExpression="5000">
                             <Condition Enabled="false" Grouping="Or" />
                           </Action>
-                          <Action OrderNumber="16" TextAuraFontSize="11.25" TextAuraName="trainersay2" TextAuraExpression="followed immedately by Life of the Dragon dealing massive damage." TextAuraXIniExpression="0" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="925+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura">
+                          <Action OrderNumber="16" TextAuraFontSize="11.25" TextAuraName="trainersay2" TextAuraExpression="delayed Life of the Dragon again for massive damage." TextAuraXIniExpression="0" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="925+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura">
                             <Condition Enabled="false" Grouping="Or" />
                           </Action>
                           <Action OrderNumber="17" AuraImageMode="CenterImage" AuraName="traineropener" AuraImage="https://i.imgur.com/odvf4bQ.jpg" AuraXIniExpression="-3" AuraYIniExpression="0" AuraWIniExpression="1929" AuraHIniExpression="173" AuraOIniExpression="100" TextAuraFontSize="12" TextAuraName="drgtrainersay" TextAuraExpression="Follow my lead and I'll explain as you progress." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraFontName="Lato" ActionType="Aura">
@@ -2183,10 +2183,10 @@
                           <Action OrderNumber="18" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Placeholder">
                             <Condition Enabled="false" Grouping="Or" />
                           </Action>
-                          <Action OrderNumber="19" TextAuraFontSize="11.25" TextAuraName="trainersay" TextAuraExpression="Executing Lance Charge and Dragon Sight on Recast aligns them perfectly with" TextAuraXIniExpression="0" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="905+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura" ExecutionDelayExpression="14000">
+                          <Action OrderNumber="19" TextAuraFontSize="11.25" TextAuraName="trainersay" TextAuraExpression="There is more to learn that is outside the scope of introductions." TextAuraXIniExpression="0" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="905+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura" ExecutionDelayExpression="14000">
                             <Condition Enabled="false" Grouping="Or" />
                           </Action>
-                          <Action OrderNumber="20" TextAuraFontSize="11.25" TextAuraName="trainersay2" TextAuraExpression="Life of the Dragon when Geirskogul, High Jump and Mirage Dive are also executed on Recast." TextAuraXIniExpression="0" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="925+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura">
+                          <Action OrderNumber="20" TextAuraFontSize="11.25" TextAuraName="trainersay2" TextAuraExpression="Reset your resources then enter /rotationguide for rotation assistance." TextAuraXIniExpression="0" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="925+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura">
                             <Condition Enabled="false" Grouping="Or" />
                           </Action>
                           <Action OrderNumber="21" AuraOp="DeactivateAura" AuraImageMode="Zoom" AuraName="traineropener" AuraImage="https://i.imgur.com/ADxjucL.jpg" AuraXIniExpression="-3" AuraYIniExpression="0" AuraWIniExpression="1929" AuraHIniExpression="95" AuraOIniExpression="100" AuraYTickExpression="${var:Yoffset}" AuraWTickExpression="${var:width}" TextAuraFontSize="12" TextAuraName="drgtrainersay" TextAuraExpression="Follow my lead and I'll explain as you progress." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraFontName="Lato" ActionType="Aura">
@@ -2195,22 +2195,13 @@
                           <Action OrderNumber="22" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Placeholder">
                             <Condition Enabled="false" Grouping="Or" />
                           </Action>
-                          <Action OrderNumber="23" TextAuraFontSize="11.25" TextAuraName="trainersay" TextAuraExpression="There is more to learn that is outside the scope of introductions." TextAuraXIniExpression="0" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="905+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura" ExecutionDelayExpression="14000">
-                            <Condition Enabled="false" Grouping="Or" />
-                          </Action>
-                          <Action OrderNumber="24" TextAuraFontSize="11.25" TextAuraName="trainersay2" TextAuraExpression="Reset your resources then enter /rotationguide for rotation assistance." TextAuraXIniExpression="0" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="925+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura">
-                            <Condition Enabled="false" Grouping="Or" />
-                          </Action>
-                          <Action OrderNumber="25" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Placeholder">
-                            <Condition Enabled="false" Grouping="Or" />
-                          </Action>
-                          <Action OrderNumber="26" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="772a1bc9-ff43-414f-8acb-599d0a51ac65" TriggerForce="regexp" ActionType="Trigger">
+                          <Action OrderNumber="23" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="772a1bc9-ff43-414f-8acb-599d0a51ac65" TriggerForce="regexp" ActionType="Trigger">
                             <Condition Enabled="false" Grouping="And">
                               <ConditionSingle Enabled="true" ExpressionL="${var:jobGuide}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                               <ConditionSingle Enabled="true" ExpressionL="${var:rotationGuide}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                             </Condition>
                           </Action>
-                          <Action OrderNumber="27" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="3aa0763d-c3b7-4bba-9394-9b2d309b6b1d" TriggerForce="regexp" ActionType="Trigger" ExecutionDelayExpression="50">
+                          <Action OrderNumber="24" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="3aa0763d-c3b7-4bba-9394-9b2d309b6b1d" TriggerForce="regexp" ActionType="Trigger" ExecutionDelayExpression="50">
                             <Condition Enabled="false" Grouping="And">
                               <ConditionSingle Enabled="true" ExpressionL="${var:jobGuide}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                               <ConditionSingle Enabled="true" ExpressionL="${var:rotationGuide}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
