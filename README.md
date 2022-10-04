@@ -12,7 +12,7 @@ Auto-Update Repo URL: https://raw.githubusercontent.com/kodadjinn/jobguidesandhu
 
 /e /endguide 
 
-===Commands (WAR, MCH, SMN, DRK, DRG, RPR, MNK, RDM, GNB)===
+===Commands (WAR, MCH, SMN, DRK, DRG, RPR, MNK, RDM, GNB, BLM, BRD, PLD, DNC, SAM)===
 
 /e /opener
 
@@ -23,12 +23,6 @@ Auto-Update Repo URL: https://raw.githubusercontent.com/kodadjinn/jobguidesandhu
 /e /endguide 
 
 /e /opener will skip all intro dialogue. Useful for simply practicing your rotation withouut RP text.
-
-===Endwalker Progress===
-
-Openers: All Battle Jobs.
-
-Endwalker Guides: WAR, MCH, SMN, DRK, DRG, RPR, MNK, RDM, GNB
 
 ===Troubleshooting===
 
