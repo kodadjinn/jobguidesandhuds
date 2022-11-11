@@ -7674,7 +7674,7 @@
           <Folder Id="4685544c-d24b-453d-94d9-5d16c05339b3" Name="9 Credits=" Enabled="true">
             <Folders />
             <Triggers>
-              <Trigger Enabled="true" Name="Credits" Id="e755f86c-5ba1-4501-841a-c72dd06e8614" RegularExpression="">
+              <Trigger Enabled="true" IsReadme="True" Name="Credits" Id="e755f86c-5ba1-4501-841a-c72dd06e8614" RegularExpression="">
                 <Actions>
                   <Action OrderNumber="1" TextAuraFontSize="11.25" TextAuraName="trainersay2" TextAuraExpression="Credits: FFXIV rotations, The Balance, The Balance Discord, AkhMorning." TextAuraXIniExpression="0" TextAuraYIniExpression="930" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="930+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura">
                     <Condition Enabled="false" Grouping="Or" />
