@@ -7489,6 +7489,15 @@
                   <Action OrderNumber="5" VariableName="attone" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                     <Condition Enabled="false" Grouping="Or" />
                   </Action>
+                  <Action OrderNumber="6" VariableName="confiteor" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="7" VariableName="altR" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="8" VariableName="divine" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
                 </Actions>
                 <Condition Enabled="false" Grouping="And" />
               </Trigger>
@@ -16433,8 +16442,13 @@
                       <Action OrderNumber="5" VariableOp="SetNumeric" VariableName="rotationGuide" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
-                      <Action OrderNumber="6" AuraImageMode="CenterImage" AuraName="traineropener" AuraImage="https://i.imgur.com/SSPgJ5k.jpg" AuraXIniExpression="-3" AuraYIniExpression="0" AuraWIniExpression="1929" AuraHIniExpression="88" AuraOIniExpression="100" AuraYTickExpression="${var:Yoffset}" AuraWTickExpression="${var:width}" TextAuraFontSize="12" TextAuraName="drgtrainersay" TextAuraExpression="Follow my lead and I'll explain as you progress." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraFontName="Lato" ActionType="Aura">
+                      <Action OrderNumber="6" AuraImageMode="CenterImage" AuraName="traineropener" AuraImage="https://i.imgur.com/oiMPHXk.jpg" AuraXIniExpression="-3" AuraYIniExpression="0" AuraWIniExpression="1929" AuraHIniExpression="88" AuraOIniExpression="100" AuraYTickExpression="${var:Yoffset}" AuraWTickExpression="${var:width}" TextAuraFontSize="12" TextAuraName="drgtrainersay" TextAuraExpression="Follow my lead and I'll explain as you progress." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraFontName="Lato" ActionType="Aura">
                         <Condition Enabled="false" Grouping="Or" />
+                      </Action>
+                      <Action OrderNumber="7" AuraImageMode="CenterImage" AuraName="traineropener" AuraImage="https://i.imgur.com/CfFxovG.jpg" AuraXIniExpression="-3" AuraYIniExpression="0" AuraWIniExpression="1929" AuraHIniExpression="88" AuraOIniExpression="100" AuraYTickExpression="${var:Yoffset}" AuraWTickExpression="${var:width}" TextAuraFontSize="12" TextAuraName="drgtrainersay" TextAuraExpression="Follow my lead and I'll explain as you progress." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraFontName="Lato" ActionType="Aura">
+                        <Condition Enabled="true" Grouping="And">
+                          <ConditionSingle Enabled="true" ExpressionL="${var:altR}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                        </Condition>
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="And" />
@@ -16457,8 +16471,13 @@
                           <Action OrderNumber="3" VariableOp="SetNumeric" VariableName="rotationGuide" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
                             <Condition Enabled="false" Grouping="Or" />
                           </Action>
-                          <Action OrderNumber="4" AuraImageMode="CenterImage" AuraName="traineropener" AuraImage="https://i.imgur.com/lsrrvmV.jpg" AuraXIniExpression="-3" AuraYIniExpression="0" AuraWIniExpression="1929" AuraHIniExpression="163" AuraOIniExpression="100" AuraYTickExpression="${var:Yoffset}" AuraWTickExpression="${var:width}" TextAuraFontSize="12" TextAuraName="drgtrainersay" TextAuraExpression="Follow my lead and I'll explain as you progress." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraFontName="Lato" ActionType="Aura">
+                          <Action OrderNumber="4" AuraImageMode="CenterImage" AuraName="traineropener" AuraImage="https://i.imgur.com/BmdJz8M.jpg" AuraXIniExpression="-3" AuraYIniExpression="0" AuraWIniExpression="1929" AuraHIniExpression="163" AuraOIniExpression="100" AuraYTickExpression="${var:Yoffset}" AuraWTickExpression="${var:width}" TextAuraFontSize="12" TextAuraName="drgtrainersay" TextAuraExpression="Follow my lead and I'll explain as you progress." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraFontName="Lato" ActionType="Aura">
                             <Condition Enabled="false" Grouping="Or" />
+                          </Action>
+                          <Action OrderNumber="5" AuraImageMode="CenterImage" AuraName="traineropener" AuraImage="https://i.imgur.com/etW6CSo.jpg" AuraXIniExpression="-3" AuraYIniExpression="0" AuraWIniExpression="1929" AuraHIniExpression="163" AuraOIniExpression="100" AuraYTickExpression="${var:Yoffset}" AuraWTickExpression="${var:width}" TextAuraFontSize="12" TextAuraName="drgtrainersay" TextAuraExpression="Follow my lead and I'll explain as you progress." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraFontName="Lato" ActionType="Aura">
+                            <Condition Enabled="true" Grouping="And">
+                              <ConditionSingle Enabled="true" ExpressionL="${var:altR}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                            </Condition>
                           </Action>
                         </Actions>
                         <Condition Enabled="true" Grouping="And">
@@ -16551,53 +16570,6 @@
                   </Folder>
                   <Folder Id="bb6ff705-e964-46bc-bf47-3242c5ea7b11" Name="Rotation 2" Enabled="true">
                     <Folders>
-                      <Folder Id="99ab90be-cbc5-4df4-87e2-f2cfa54d4ee7" Name="Divine Might On/Off" Enabled="true">
-                        <Folders />
-                        <Triggers>
-                          <Trigger Enabled="true" Name="1 Divine Might On" Id="f2745ff6-e560-48f3-bb02-826f4cc157bf" RegularExpression="You gain the effect of Divine Might">
-                            <Actions>
-                              <Action OrderNumber="1" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" VariableOp="SetNumeric" VariableName="divine" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
-                                <Condition Enabled="false" Grouping="Or" />
-                              </Action>
-                              <Action OrderNumber="2" OBSEndPoint="" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="SystemBeep">
-                                <Condition Enabled="true" Grouping="And">
-                                  <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="41" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
-                                  <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="47" ExpressionTypeR="Numeric" ConditionType="NumericLess" />
-                                  <ConditionSingle Enabled="true" ExpressionL="${var:opener}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
-                                </Condition>
-                              </Action>
-                              <Action OrderNumber="3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="ffeeeb08-09d9-4484-b543-a45f35117a1b" TriggerForce="regexp" ActionType="Trigger">
-                                <Condition Enabled="true" Grouping="And">
-                                  <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="48" ExpressionTypeR="Numeric" ConditionType="NumericLess" />
-                                  <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="41" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
-                                </Condition>
-                              </Action>
-                            </Actions>
-                            <Condition Enabled="false" Grouping="Or" />
-                          </Trigger>
-                          <Trigger Enabled="true" Name="2 Divine Might Off" Id="9e47d932-8e41-4217-b5d6-82165a6ca3fb" RegularExpression="You lose the effect of Divine Might">
-                            <Actions>
-                              <Action OrderNumber="1" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" VariableName="divine" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
-                                <Condition Enabled="false" Grouping="Or" />
-                              </Action>
-                              <Action OrderNumber="2" OBSEndPoint="" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="SystemBeep">
-                                <Condition Enabled="true" Grouping="And">
-                                  <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="39" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
-                                  <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="47" ExpressionTypeR="Numeric" ConditionType="NumericLess" />
-                                  <ConditionSingle Enabled="true" ExpressionL="${var:opener}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
-                                </Condition>
-                              </Action>
-                              <Action OrderNumber="3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="ffeeeb08-09d9-4484-b543-a45f35117a1b" TriggerForce="regexp" ActionType="Trigger">
-                                <Condition Enabled="true" Grouping="And">
-                                  <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="48" ExpressionTypeR="Numeric" ConditionType="NumericLess" />
-                                  <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="41" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
-                                </Condition>
-                              </Action>
-                            </Actions>
-                            <Condition Enabled="false" Grouping="Or" />
-                          </Trigger>
-                        </Triggers>
-                      </Folder>
                       <Folder Id="62c903cf-377a-44ac-b293-2b9d63013a0a" Name="Alerts" Enabled="true">
                         <Folders />
                         <Triggers>
@@ -16637,48 +16609,215 @@
                               <ConditionSingle Enabled="true" ExpressionL="${var:opener}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                             </Condition>
                           </Trigger>
+                          <Trigger Enabled="true" Sequential="True" Name="Alert: Fast Blade -&gt; Riot Blade -&gt; Fight or Flight!" Id="194637ae-d24e-44e5-b626-7b5af8b29562" RegularExpression="" PrevActionsRefire="Deny" Scheduling="FromRefirePeriod" PeriodRefire="Deny">
+                            <Actions>
+                              <Action OrderNumber="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="a45fc322-3f90-413c-b740-b387542ec47b" TriggerForce="regexp" ActionType="Trigger">
+                                <Condition Enabled="false" Grouping="Or" />
+                              </Action>
+                              <Action OrderNumber="2" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="f4e9ef32-00bd-422b-9341-c07a9c0c5154" TriggerForce="regexp" ActionType="Trigger">
+                                <Condition Enabled="false" Grouping="Or" />
+                              </Action>
+                              <Action OrderNumber="3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="08edbdf3-78c4-4dea-9b4e-03d10d1bff09" TriggerForce="regexp" ActionType="Trigger">
+                                <Condition Enabled="false" Grouping="Or" />
+                              </Action>
+                              <Action OrderNumber="4" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="4ef995b4-8711-4f71-8fd7-c97478230f17" TriggerForce="regexp,conditions,parent" ActionType="Trigger">
+                                <Condition Enabled="false" Grouping="Or" />
+                              </Action>
+                              <Action OrderNumber="5" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Placeholder">
+                                <Condition Enabled="false" Grouping="Or" />
+                              </Action>
+                              <Action OrderNumber="6" TextAuraFontSize="11.25" TextAuraName="alert" TextAuraExpression="Fast Blade -&gt; Riot Blade -&gt; Fight or Flight!" TextAuraXIniExpression="0" TextAuraYIniExpression="277" TextAuraWIniExpression="1940" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="277+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura" ExecutionDelayExpression="50">
+                                <Condition Enabled="false" Grouping="And" />
+                              </Action>
+                              <Action OrderNumber="7" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Placeholder">
+                                <Condition Enabled="false" Grouping="Or" />
+                              </Action>
+                              <Action OrderNumber="8" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="a45fc322-3f90-413c-b740-b387542ec47b" TriggerForce="regexp" ActionType="Trigger">
+                                <Condition Enabled="false" Grouping="And" />
+                              </Action>
+                              <Action OrderNumber="9" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="5f2faa7c-0180-40b2-a97d-031c366b5130" TriggerForce="regexp" ActionType="Trigger" ExecutionDelayExpression="50">
+                                <Condition Enabled="false" Grouping="And" />
+                              </Action>
+                            </Actions>
+                            <Condition Enabled="true" Grouping="And">
+                              <ConditionSingle Enabled="true" ExpressionL="${var:jobGuide}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                              <ConditionSingle Enabled="true" ExpressionL="${var:rotationGuide}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                              <ConditionSingle Enabled="true" ExpressionL="${var:opener}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                            </Condition>
+                            <Conditions />
+                          </Trigger>
+                        </Triggers>
+                      </Folder>
+                      <Folder Id="7e784ec0-070f-4986-b3ce-fd2b60f37424" Name="Standard Rotation" Enabled="true">
+                        <Folders>
+                          <Folder Id="99ab90be-cbc5-4df4-87e2-f2cfa54d4ee7" Name="Divine Might On/Off" Enabled="true">
+                            <Folders />
+                            <Triggers>
+                              <Trigger Enabled="true" Name="1 Divine Might On" Id="f2745ff6-e560-48f3-bb02-826f4cc157bf" RegularExpression="You gain the effect of Divine Might">
+                                <Actions>
+                                  <Action OrderNumber="1" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" VariableOp="SetNumeric" VariableName="divine" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                                    <Condition Enabled="false" Grouping="Or" />
+                                  </Action>
+                                  <Action OrderNumber="2" OBSEndPoint="" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="SystemBeep">
+                                    <Condition Enabled="true" Grouping="And">
+                                      <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="41" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
+                                      <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="47" ExpressionTypeR="Numeric" ConditionType="NumericLess" />
+                                      <ConditionSingle Enabled="true" ExpressionL="${var:opener}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                                      <ConditionSingle Enabled="true" ExpressionL="${var:altR}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                                    </Condition>
+                                  </Action>
+                                  <Action OrderNumber="3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="ffeeeb08-09d9-4484-b543-a45f35117a1b" TriggerForce="regexp" ActionType="Trigger">
+                                    <Condition Enabled="true" Grouping="And">
+                                      <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="48" ExpressionTypeR="Numeric" ConditionType="NumericLess" />
+                                      <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="41" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
+                                      <ConditionSingle Enabled="true" ExpressionL="${var:altR}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                                    </Condition>
+                                  </Action>
+                                </Actions>
+                                <Condition Enabled="false" Grouping="Or" />
+                              </Trigger>
+                              <Trigger Enabled="true" Name="2 Divine Might Off" Id="9e47d932-8e41-4217-b5d6-82165a6ca3fb" RegularExpression="You lose the effect of Divine Might">
+                                <Actions>
+                                  <Action OrderNumber="1" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" VariableName="divine" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                                    <Condition Enabled="false" Grouping="Or" />
+                                  </Action>
+                                  <Action OrderNumber="2" OBSEndPoint="" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="SystemBeep">
+                                    <Condition Enabled="true" Grouping="And">
+                                      <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="39" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
+                                      <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="47" ExpressionTypeR="Numeric" ConditionType="NumericLess" />
+                                      <ConditionSingle Enabled="true" ExpressionL="${var:opener}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                                      <ConditionSingle Enabled="true" ExpressionL="${var:altR}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                                    </Condition>
+                                  </Action>
+                                  <Action OrderNumber="3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="ffeeeb08-09d9-4484-b543-a45f35117a1b" TriggerForce="regexp" ActionType="Trigger">
+                                    <Condition Enabled="true" Grouping="And">
+                                      <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="48" ExpressionTypeR="Numeric" ConditionType="NumericLess" />
+                                      <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="41" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
+                                      <ConditionSingle Enabled="true" ExpressionL="${var:altR}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                                    </Condition>
+                                  </Action>
+                                </Actions>
+                                <Condition Enabled="false" Grouping="Or" />
+                              </Trigger>
+                            </Triggers>
+                          </Folder>
+                        </Folders>
+                        <Triggers>
+                          <Trigger Enabled="true" Sequential="True" Name="Rotation Loop Stage" Id="ffeeeb08-09d9-4484-b543-a45f35117a1b" RegularExpression="" PrevActionsRefire="Deny">
+                            <Actions>
+                              <Action OrderNumber="1" OBSEndPoint="" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="SystemBeep">
+                                <Condition Enabled="true" Grouping="Or">
+                                  <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                                  <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="47" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                                  <ConditionGroup Enabled="true" Grouping="And">
+                                    <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="39" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                                    <ConditionSingle Enabled="true" ExpressionL="${var:divine}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                                  </ConditionGroup>
+                                </Condition>
+                              </Action>
+                              <Action OrderNumber="2" AuraImageMode="CenterImage" AuraName="traineropener" AuraImage="https://i.imgur.com/BmdJz8M.jpg" AuraXIniExpression="-3" AuraYIniExpression="0" AuraWIniExpression="1929" AuraHIniExpression="163" AuraOIniExpression="100" AuraYTickExpression="${var:Yoffset}" AuraWTickExpression="${var:width}" TextAuraFontSize="12" TextAuraName="drgtrainersay" TextAuraExpression="Follow my lead and I'll explain as you progress." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraFontName="Lato" ActionType="Aura">
+                                <Condition Enabled="true" Grouping="And">
+                                  <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="48" ExpressionTypeR="Numeric" ConditionType="NumericLess" />
+                                  <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
+                                </Condition>
+                              </Action>
+                              <Action OrderNumber="3" AuraImageMode="CenterImage" AuraName="traineropener" AuraImage="https://i.imgur.com/IcekC1d.jpg" AuraXIniExpression="-3" AuraYIniExpression="0" AuraWIniExpression="1929" AuraHIniExpression="163" AuraOIniExpression="100" AuraYTickExpression="${var:Yoffset}" AuraWTickExpression="${var:width}" TextAuraFontSize="12" TextAuraName="drgtrainersay" TextAuraExpression="Follow my lead and I'll explain as you progress." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraFontName="Lato" ActionType="Aura">
+                                <Condition Enabled="true" Grouping="And">
+                                  <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                                </Condition>
+                              </Action>
+                              <Action OrderNumber="4" AuraImageMode="CenterImage" AuraName="traineropener" AuraImage="https://i.imgur.com/YaGQhQC.jpg" AuraXIniExpression="-3" AuraYIniExpression="0" AuraWIniExpression="1929" AuraHIniExpression="163" AuraOIniExpression="100" AuraYTickExpression="${var:Yoffset}" AuraWTickExpression="${var:width}" TextAuraFontSize="12" TextAuraName="drgtrainersay" TextAuraExpression="Follow my lead and I'll explain as you progress." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraFontName="Lato" ActionType="Aura">
+                                <Condition Enabled="true" Grouping="And">
+                                  <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="48" ExpressionTypeR="Numeric" ConditionType="NumericLess" />
+                                  <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="40" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
+                                  <ConditionSingle Enabled="true" ExpressionL="${var:divine}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                                </Condition>
+                              </Action>
+                            </Actions>
+                            <Condition Enabled="true" Grouping="And">
+                              <ConditionSingle Enabled="true" ExpressionL="${var:jobGuide}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                              <ConditionSingle Enabled="true" ExpressionL="${var:rotationGuide}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                              <ConditionSingle Enabled="true" ExpressionL="${var:opener}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                            </Condition>
+                          </Trigger>
+                        </Triggers>
+                      </Folder>
+                      <Folder Id="aaa84ae8-1221-460d-b2f8-5ea34e44242b" Name="Alternate Rotation" Enabled="true">
+                        <Folders />
+                        <Triggers>
+                          <Trigger Enabled="true" Name="1 Alternate Rotation On" Id="035b2c79-0a04-47de-a2a5-e9f0452e5c5a" RegularExpression="You use Iron Will">
+                            <Actions>
+                              <Action OrderNumber="1" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" VariableOp="SetNumeric" VariableName="altR" VariableExpression="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                                <Condition Enabled="false" Grouping="Or" />
+                              </Action>
+                              <Action OrderNumber="2" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="440767ca-0c19-4821-bd21-3b76b154735f" TriggerForce="regexp" ActionType="Trigger">
+                                <Condition Enabled="true" Grouping="And">
+                                  <ConditionSingle Enabled="true" ExpressionL="${var:jobGuide}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                                  <ConditionSingle Enabled="true" ExpressionL="${var:rotationGuide}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                                  <ConditionSingle Enabled="true" ExpressionL="${var:opener}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                                </Condition>
+                              </Action>
+                              <Action OrderNumber="3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="43ab46c5-fc6f-489a-8563-d27124804674" TriggerForce="regexp,conditions" ActionType="Trigger">
+                                <Condition Enabled="true" Grouping="And">
+                                  <ConditionSingle Enabled="true" ExpressionL="${var:opener}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                                </Condition>
+                              </Action>
+                            </Actions>
+                            <Condition Enabled="false" Grouping="Or" />
+                            <Conditions />
+                          </Trigger>
+                          <Trigger Enabled="true" Name="2 Alternate Rotation Off" Id="df9de95f-1761-4705-b907-d4428c3f1fac" RegularExpression="You use Release Iron Will">
+                            <Actions>
+                              <Action OrderNumber="1" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" VariableName="altR" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Variable">
+                                <Condition Enabled="false" Grouping="Or" />
+                              </Action>
+                              <Action OrderNumber="2" OBSEndPoint="ws://${_const[OBSWebsocketEndpoint]}:${_const[OBSWebsocketPort]}" OBSPassword="${_const[OBSWebsocketPassword]}" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="440767ca-0c19-4821-bd21-3b76b154735f" TriggerForce="regexp" ActionType="Trigger">
+                                <Condition Enabled="true" Grouping="And">
+                                  <ConditionSingle Enabled="true" ExpressionL="${var:jobGuide}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                                  <ConditionSingle Enabled="true" ExpressionL="${var:rotationGuide}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                                  <ConditionSingle Enabled="true" ExpressionL="${var:opener}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                                </Condition>
+                              </Action>
+                              <Action OrderNumber="3" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="ffeeeb08-09d9-4484-b543-a45f35117a1b" TriggerForce="regexp,conditions" ActionType="Trigger">
+                                <Condition Enabled="true" Grouping="And">
+                                  <ConditionSingle Enabled="true" ExpressionL="${var:opener}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                                </Condition>
+                              </Action>
+                            </Actions>
+                            <Condition Enabled="false" Grouping="And" />
+                            <Conditions />
+                          </Trigger>
+                          <Trigger Enabled="true" Sequential="True" Name="Alt Rotation Loop Stage" Id="43ab46c5-fc6f-489a-8563-d27124804674" RegularExpression="" PrevActionsRefire="Deny">
+                            <Actions>
+                              <Action OrderNumber="1" OBSEndPoint="" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="SystemBeep">
+                                <Condition Enabled="true" Grouping="Or">
+                                  <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="5" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                                  <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="38" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                                </Condition>
+                              </Action>
+                              <Action OrderNumber="2" AuraImageMode="CenterImage" AuraName="traineropener" AuraImage="https://i.imgur.com/etW6CSo.jpg" AuraXIniExpression="-3" AuraYIniExpression="0" AuraWIniExpression="1929" AuraHIniExpression="163" AuraOIniExpression="100" AuraYTickExpression="${var:Yoffset}" AuraWTickExpression="${var:width}" TextAuraFontSize="12" TextAuraName="drgtrainersay" TextAuraExpression="Follow my lead and I'll explain as you progress." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraFontName="Lato" ActionType="Aura">
+                                <Condition Enabled="true" Grouping="And">
+                                  <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="39" ExpressionTypeR="Numeric" ConditionType="NumericLess" />
+                                  <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="5" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
+                                </Condition>
+                              </Action>
+                              <Action OrderNumber="3" AuraImageMode="CenterImage" AuraName="traineropener" AuraImage="https://i.imgur.com/EkCOxT7.jpg" AuraXIniExpression="-3" AuraYIniExpression="0" AuraWIniExpression="1929" AuraHIniExpression="163" AuraOIniExpression="100" AuraYTickExpression="${var:Yoffset}" AuraWTickExpression="${var:width}" TextAuraFontSize="12" TextAuraName="drgtrainersay" TextAuraExpression="Follow my lead and I'll explain as you progress." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraFontName="Lato" ActionType="Aura">
+                                <Condition Enabled="true" Grouping="And">
+                                  <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="6" ExpressionTypeR="Numeric" ConditionType="NumericLess" />
+                                </Condition>
+                              </Action>
+                            </Actions>
+                            <Condition Enabled="true" Grouping="And">
+                              <ConditionSingle Enabled="true" ExpressionL="${var:jobGuide}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                              <ConditionSingle Enabled="true" ExpressionL="${var:rotationGuide}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                              <ConditionSingle Enabled="true" ExpressionL="${var:opener}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                            </Condition>
+                            <Conditions />
+                          </Trigger>
                         </Triggers>
                       </Folder>
                     </Folders>
-                    <Triggers>
-                      <Trigger Enabled="true" Sequential="True" Name="Rotation Loop Stage" Id="ffeeeb08-09d9-4484-b543-a45f35117a1b" RegularExpression="" PrevActionsRefire="Deny">
-                        <Actions>
-                          <Action OrderNumber="1" OBSEndPoint="" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="SystemBeep">
-                            <Condition Enabled="true" Grouping="Or">
-                              <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
-                              <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="47" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
-                              <ConditionGroup Enabled="true" Grouping="And">
-                                <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="39" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
-                                <ConditionSingle Enabled="true" ExpressionL="${var:divine}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
-                              </ConditionGroup>
-                            </Condition>
-                          </Action>
-                          <Action OrderNumber="2" AuraImageMode="CenterImage" AuraName="traineropener" AuraImage="https://i.imgur.com/lsrrvmV.jpg" AuraXIniExpression="-3" AuraYIniExpression="0" AuraWIniExpression="1929" AuraHIniExpression="163" AuraOIniExpression="100" AuraYTickExpression="${var:Yoffset}" AuraWTickExpression="${var:width}" TextAuraFontSize="12" TextAuraName="drgtrainersay" TextAuraExpression="Follow my lead and I'll explain as you progress." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraFontName="Lato" ActionType="Aura">
-                            <Condition Enabled="true" Grouping="And">
-                              <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="48" ExpressionTypeR="Numeric" ConditionType="NumericLess" />
-                              <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
-                            </Condition>
-                          </Action>
-                          <Action OrderNumber="3" AuraImageMode="CenterImage" AuraName="traineropener" AuraImage="https://i.imgur.com/AaShB2r.jpg" AuraXIniExpression="-3" AuraYIniExpression="0" AuraWIniExpression="1929" AuraHIniExpression="163" AuraOIniExpression="100" AuraYTickExpression="${var:Yoffset}" AuraWTickExpression="${var:width}" TextAuraFontSize="12" TextAuraName="drgtrainersay" TextAuraExpression="Follow my lead and I'll explain as you progress." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraFontName="Lato" ActionType="Aura">
-                            <Condition Enabled="true" Grouping="And">
-                              <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
-                            </Condition>
-                          </Action>
-                          <Action OrderNumber="4" AuraImageMode="CenterImage" AuraName="traineropener" AuraImage="https://i.imgur.com/ds2pKp6.jpg" AuraXIniExpression="-3" AuraYIniExpression="0" AuraWIniExpression="1929" AuraHIniExpression="163" AuraOIniExpression="100" AuraYTickExpression="${var:Yoffset}" AuraWTickExpression="${var:width}" TextAuraFontSize="12" TextAuraName="drgtrainersay" TextAuraExpression="Follow my lead and I'll explain as you progress." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraFontName="Lato" ActionType="Aura">
-                            <Condition Enabled="true" Grouping="And">
-                              <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="48" ExpressionTypeR="Numeric" ConditionType="NumericLess" />
-                              <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="40" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
-                              <ConditionSingle Enabled="true" ExpressionL="${var:divine}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
-                            </Condition>
-                          </Action>
-                        </Actions>
-                        <Condition Enabled="true" Grouping="And">
-                          <ConditionSingle Enabled="true" ExpressionL="${var:jobGuide}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
-                          <ConditionSingle Enabled="true" ExpressionL="${var:rotationGuide}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
-                          <ConditionSingle Enabled="true" ExpressionL="${var:opener}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
-                        </Condition>
-                      </Trigger>
-                    </Triggers>
+                    <Triggers />
                   </Folder>
                 </Folders>
                 <Triggers />
@@ -16792,13 +16931,13 @@
                       <Action OrderNumber="7" TextAuraFontSize="11.25" TextAuraName="trainersay" TextAuraExpression="Now that you understand the fundamentals of the Paladin Job you need only" TextAuraXIniExpression="0" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="905+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura" ExecutionDelayExpression="50">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
-                      <Action OrderNumber="8" TextAuraFontSize="11.25" TextAuraName="trainersay2" TextAuraExpression="learn the most widely applicable opener and rotation for party/raid enhancement alignment." TextAuraXIniExpression="0" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="925+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura">
+                      <Action OrderNumber="8" TextAuraFontSize="11.25" TextAuraName="trainersay2" TextAuraExpression="learn the most widely applicable openers and rotations for party/raid enhancement alignment." TextAuraXIniExpression="0" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="925+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
                       <Action OrderNumber="9" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Placeholder">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
-                      <Action OrderNumber="10" TextAuraFontSize="11.25" TextAuraName="trainersay" TextAuraExpression="Complete the Standard Opener." TextAuraXIniExpression="0" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="895+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura" ExecutionDelayExpression="10000">
+                      <Action OrderNumber="10" TextAuraFontSize="11.25" TextAuraName="trainersay" TextAuraExpression="Complete the Standard Opener or Loop Opener (Iron Will = Toggle)." TextAuraXIniExpression="0" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="895+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura" ExecutionDelayExpression="10000">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
                       <Action OrderNumber="11" TextAuraFontSize="11.25" TextAuraName="trainersay2" TextAuraExpression="It will align your rotation and teach you intuitively through repitition." TextAuraXIniExpression="0" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="915+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura">
@@ -16807,28 +16946,33 @@
                       <Action OrderNumber="12" TextAuraEffect="Italic" TextAuraFontSize="11.25" TextAuraName="trainersay3" TextAuraExpression="(Reset your resources and wait for Recast timers.)" TextAuraXIniExpression="0" TextAuraYIniExpression="935" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="935+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
-                      <Action OrderNumber="13" AuraImageMode="CenterImage" AuraName="traineropener" AuraImage="https://i.imgur.com/SSPgJ5k.jpg" AuraXIniExpression="-3" AuraYIniExpression="0" AuraWIniExpression="1929" AuraHIniExpression="88" AuraOIniExpression="100" AuraYTickExpression="${var:Yoffset}" AuraWTickExpression="${var:width}" TextAuraFontSize="12" TextAuraName="drgtrainersay" TextAuraExpression="Follow my lead and I'll explain as you progress." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraFontName="Lato" ActionType="Aura">
+                      <Action OrderNumber="13" AuraImageMode="CenterImage" AuraName="traineropener" AuraImage="https://i.imgur.com/oiMPHXk.jpg" AuraXIniExpression="-3" AuraYIniExpression="0" AuraWIniExpression="1929" AuraHIniExpression="88" AuraOIniExpression="100" AuraYTickExpression="${var:Yoffset}" AuraWTickExpression="${var:width}" TextAuraFontSize="12" TextAuraName="drgtrainersay" TextAuraExpression="Follow my lead and I'll explain as you progress." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraFontName="Lato" ActionType="Aura">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
-                      <Action OrderNumber="14" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Placeholder">
+                      <Action OrderNumber="14" AuraImageMode="CenterImage" AuraName="traineropener" AuraImage="https://i.imgur.com/CfFxovG.jpg" AuraXIniExpression="-3" AuraYIniExpression="0" AuraWIniExpression="1929" AuraHIniExpression="88" AuraOIniExpression="100" AuraYTickExpression="${var:Yoffset}" AuraWTickExpression="${var:width}" TextAuraFontSize="12" TextAuraName="drgtrainersay" TextAuraExpression="Follow my lead and I'll explain as you progress." TextAuraXIniExpression="0" TextAuraYIniExpression="915" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraFontName="Lato" ActionType="Aura">
+                        <Condition Enabled="true" Grouping="And">
+                          <ConditionSingle Enabled="true" ExpressionL="${var:altR}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                        </Condition>
+                      </Action>
+                      <Action OrderNumber="15" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Placeholder">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
-                      <Action OrderNumber="15" TextAuraFontSize="11.25" TextAuraName="trainersay" TextAuraExpression="When satisfied enter &quot;/endguide&quot; to exit this guide." TextAuraXIniExpression="0" TextAuraYIniExpression="930" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="915+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura" ExecutionDelayExpression="7000">
+                      <Action OrderNumber="16" TextAuraFontSize="11.25" TextAuraName="trainersay" TextAuraExpression="When satisfied enter &quot;/endguide&quot; to exit this guide." TextAuraXIniExpression="0" TextAuraYIniExpression="930" TextAuraWIniExpression="1925" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="915+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura" ExecutionDelayExpression="7000">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
-                      <Action OrderNumber="16" TextAuraOp="DeactivateAura" TextAuraEffect="Italic" TextAuraFontSize="11.25" TextAuraName="trainersay2" TextAuraExpression="(Wait for Recast timers. Edge of Shadow instead of The Blackest Night if it won't break.)" TextAuraXIniExpression="0" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="935+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura">
+                      <Action OrderNumber="17" TextAuraOp="DeactivateAura" TextAuraEffect="Italic" TextAuraFontSize="11.25" TextAuraName="trainersay2" TextAuraExpression="(Wait for Recast timers. Edge of Shadow instead of The Blackest Night if it won't break.)" TextAuraXIniExpression="0" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="935+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
-                      <Action OrderNumber="17" TextAuraOp="DeactivateAura" TextAuraEffect="Italic" TextAuraFontSize="11.25" TextAuraName="trainersay3" TextAuraExpression="(Wait for Recast timers. Edge of Shadow instead of The Blackest Night if it won't break.)" TextAuraXIniExpression="0" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="935+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura">
+                      <Action OrderNumber="18" TextAuraOp="DeactivateAura" TextAuraEffect="Italic" TextAuraFontSize="11.25" TextAuraName="trainersay3" TextAuraExpression="(Wait for Recast timers. Edge of Shadow instead of The Blackest Night if it won't break.)" TextAuraXIniExpression="0" TextAuraHIniExpression="30" TextAuraOIniExpression="100" TextAuraYTickExpression="935+${var:Yoffset}" TextAuraWTickExpression="${var:width}" TextAuraFontName="Lato" ActionType="TextAura">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
-                      <Action OrderNumber="18" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Placeholder">
+                      <Action OrderNumber="19" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Placeholder">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
-                      <Action OrderNumber="19" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="772a1bc9-ff43-414f-8acb-599d0a51ac65" TriggerForce="regexp" ActionType="Trigger">
+                      <Action OrderNumber="20" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="772a1bc9-ff43-414f-8acb-599d0a51ac65" TriggerForce="regexp" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
-                      <Action OrderNumber="20" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="3aa0763d-c3b7-4bba-9394-9b2d309b6b1d" TriggerForce="regexp" ActionType="Trigger" ExecutionDelayExpression="50">
+                      <Action OrderNumber="21" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="3aa0763d-c3b7-4bba-9394-9b2d309b6b1d" TriggerForce="regexp" ActionType="Trigger" ExecutionDelayExpression="50">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
                     </Actions>
@@ -17074,7 +17218,7 @@
                   <Folder Id="f327ed2d-3339-4746-bb2d-7b3af13b0e3c" Name="Objective 3" Enabled="true">
                     <Folders />
                     <Triggers>
-                      <Trigger Enabled="true" Sequential="True" Name="Objective 3: FoF Holy Spirit" Id="97d4c565-2026-49af-93eb-4fcfb0d8f6fb" RegularExpression="You cast Holy Spirit">
+                      <Trigger Enabled="true" Sequential="True" Name="Objective 3: FoF Holy Spirit" Id="97d4c565-2026-49af-93eb-4fcfb0d8f6fb" RegularExpression="You use Atonement">
                         <Actions>
                           <Action OrderNumber="1" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="772a1bc9-ff43-414f-8acb-599d0a51ac65" TriggerForce="regexp" ActionType="Trigger">
                             <Condition Enabled="false" Grouping="Or" />
@@ -17272,25 +17416,34 @@
                             <Condition Enabled="false" Grouping="Or" />
                           </Action>
                           <Action OrderNumber="5" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="ffeeeb08-09d9-4484-b543-a45f35117a1b" TriggerForce="regexp" ActionType="Trigger">
-                            <Condition Enabled="true" Grouping="Or">
-                              <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
-                              <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="47" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
-                              <ConditionGroup Enabled="false" Grouping="And">
-                                <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="48" ExpressionTypeR="Numeric" ConditionType="NumericLess" />
-                                <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="41" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
-                                <ConditionSingle Enabled="true" ExpressionL="${var:divine}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                            <Condition Enabled="true" Grouping="And">
+                              <ConditionGroup Enabled="true" Grouping="Or">
+                                <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                                <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="39" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                                <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="47" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                               </ConditionGroup>
-                              <ConditionGroup Enabled="false" Grouping="And">
-                                <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="40" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
-                                <ConditionSingle Enabled="true" ExpressionL="${var:divine}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
-                              </ConditionGroup>
-                              <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="39" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                              <ConditionSingle Enabled="true" ExpressionL="${var:altR}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                             </Condition>
                           </Action>
-                          <Action OrderNumber="6" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Placeholder">
+                          <Action OrderNumber="6" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="43ab46c5-fc6f-489a-8563-d27124804674" TriggerForce="regexp" ActionType="Trigger">
+                            <Condition Enabled="true" Grouping="And">
+                              <ConditionGroup Enabled="true" Grouping="Or">
+                                <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="5" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                                <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="38" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                              </ConditionGroup>
+                              <ConditionSingle Enabled="true" ExpressionL="${var:altR}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                            </Condition>
+                          </Action>
+                          <Action OrderNumber="7" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="194637ae-d24e-44e5-b626-7b5af8b29562" TriggerForce="regexp" ActionType="Trigger">
+                            <Condition Enabled="true" Grouping="And">
+                              <ConditionSingle Enabled="true" ExpressionL="${var:altR}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                              <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="5" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                            </Condition>
+                          </Action>
+                          <Action OrderNumber="8" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" ActionType="Placeholder">
                             <Condition Enabled="false" Grouping="Or" />
                           </Action>
-                          <Action OrderNumber="7" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="2a3b0f76-9c19-4990-af50-7d1e5017bcff" TriggerForce="regexp" ActionType="Trigger">
+                          <Action OrderNumber="9" TextAuraFontSize="8.25" TextAuraFontName="Microsoft Sans Serif" TriggerId="2a3b0f76-9c19-4990-af50-7d1e5017bcff" TriggerForce="regexp" ActionType="Trigger">
                             <Condition Enabled="true" Grouping="And">
                               <ConditionSingle Enabled="true" ExpressionL="${var:fof}" ExpressionTypeL="Numeric" ExpressionR="0" ExpressionTypeR="Numeric" ConditionType="NumericGreater" />
                             </Condition>
